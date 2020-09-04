@@ -3,10 +3,10 @@
 ## Programm
 
 * [Lesson 1: Git + program overview](./ls1)
-* [Lesson 2: Inheritance in JS](./ls1)
+* [Lesson 2: Inheritance in JS](./ls2)
 * Will be soon...  
 
-## [Codewars](./codewars)
+## [Codewars](./codewars.md)
 
 ## Work with tasks by GIT
 
