@@ -2,7 +2,7 @@
 
 ## Programm
 
-* [Lesson 1: Git + program overview]()
+* [Lesson 1: Git + program overview](./ls1)
 * Will be soon...  
 
 ## Work with tasks by GIT
