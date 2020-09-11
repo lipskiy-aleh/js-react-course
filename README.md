@@ -2,8 +2,9 @@
 
 ## Programm
 
-* [Lesson 1: Git + program overview](./ls1)
-* [Lesson 2: Inheritance in JS](./ls2)
+* [Lesson 1: Git + program overview](./lessons/ls1)
+* [Lesson 2: Inheritance in JS](./lessons/ls2)
+* [Lesson 3 - Webpack, npm. Data strucure](./lessons/ls3)
 * Will be soon...  
 
 ## [Codewars](./codewars.md)
