@@ -26,12 +26,6 @@ bst.search(key);
 
 // returns whether BST contains such value or not;
 bst.contains(value);
-
-// returns ordered sequence of stored values in given oreder (order is boolean)
-bst.traverse(order); 
-
-// verifies whether tree is well-formed binary search tree or not  
-bst.verify();  
 ``` 
 
 ### Examples:
@@ -63,12 +57,6 @@ bst.insert(3, 'three');
 
 bst.search(1); // 'one'
 bst.contains('three'); // true
-bst.traverse(true); // ['one', 'two', 'three']
-bst.traverse(false); // ['three', 'two', 'one']
-
-bst._root.key = 0;
-bst.verify(); //false
-
 ``` 
 
 ### Advance methods *
