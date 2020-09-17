@@ -2,7 +2,7 @@
 
 ## [Home Work](../../tasks/binaryTree.md)  
   
-**Deadline: 19.09.2020**  
+**Deadline: 21.09.2020**  
 
 ## [Presentation](https://docs.google.com/presentation/d/1DbqrJtnHqDYF69tWMvk5wCYPN9Bos_8Fg_RiZnc7p3k/edit?usp=sharing)
 ## [Lesson video](https://drive.google.com/file/d/12a11DoGkQ_NRLlTAT7QjesyM-2-7ZXGg/view?usp=sharing)  
