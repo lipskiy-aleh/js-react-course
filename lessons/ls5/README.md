@@ -5,7 +5,7 @@
 **Deadline: TBD**   -->
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-d202c7)
-## [Lesson video]()  
+## [Lesson video](https://drive.google.com/file/d/1GWsZKi-nEUZm_SSmxhUA28BannoFRscl/view?usp=sharing)  
 
 ## Usefull links:
 * [From MVC to Modern Web Frameworks](https://medium.com/hackernoon/from-mvc-to-modern-web-frameworks-8067ec9dee65)  
