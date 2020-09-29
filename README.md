@@ -6,7 +6,8 @@
 * [Lesson 2: Inheritance in JS](./lessons/ls2)
 * [Lesson 3: Webpack, npm. Data strucure](./lessons/ls3)
 * [Lesson 4: Asynchronous js](./lessons/ls4)
-* [Lesson 5: SPA + MVC](./lessons/ls5)
+* [Lesson 5,6: SPA + MVC](./lessons/ls5)
+* [Lesson 7: React](./lessons/ls7)
 * Will be soon...  
 
 ## [Codewars](./codewars.md)
