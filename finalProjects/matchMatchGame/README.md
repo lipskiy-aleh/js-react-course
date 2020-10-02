@@ -1,24 +1,32 @@
-### Match-Match Game 
+## Match-Match Game 
 
-### Requirements  
- Использование React обязательно! Redux по желанию
-1. При входе в игру пользователь видит приветсвие и краткие правила игры
-2. Далее заполняет профиль игрока:
+### Requirements
+
+1. When user enter to the game. He sees welcome page and short rules (with a link to **full rules page**)
+2. He feels profile:
     - First Name
     - Last Name
     - eMail
-    - Игрок может выбрать
-       - вид рубашек карт
-       - количество карт (сложность игры)
-3.  После старта начинает работать таймер, который отсчитывает время от начала игры
-4.  По клику на карту – она переворачивается плавно, так же плавно исчезают совпавшие карты, если пара не совпадает – обе карты переворачиваются рубашкой вверх
-5.  По окончанию игры – поздравление игроку)
-7.  Раздача карт всегда рандомна!
-8.  В приложении ведется таблица рекордов - ТОP10 результатов.
-9.  Таблица рекордов и профиль игрока хранятся в window.localStorage
- 
- 
-Пример интерфейса, ваш дизайн может быть другим:
+    - also can chose
+       - type of cards background
+       - the number of cards (difficulty of game)
+3. When user start the game, timer start work. Timer must calculate duration of game.
+4. Whe user click to the card - card will flips smoothly. If cards match they must be hide smoothly. If two cards don’t match cards should return to begining state.
+5. In the end of game - user see **congratulation page**
+6. The sorting of cards always should be random.
+7  App must have a **record page** with TOP 10 result
+8. Profile and table of records must be store in window.localStorage
+
+### List of pages:
+* Welcome
+* Profile
+* Game page
+* Congratulation
+* TOP results  
+
+---
+
+Example if app interface, but feel free to create the best design which you can:
 
 ![Screen 1](./images/image001.jpg)
 ![Screen 2](./images/image002.jpg)
