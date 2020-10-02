@@ -1,11 +1,11 @@
-import render from '../engine/render.js'
-import { get } from '../engine/state.js'
-import renderApp from '../view/renderApp.js'
+import state from '../engine/state.js'
 
 export default function todoItemClick(e) {
   const idToFind = e.target.dataset.id
-  const todos = get('todos')
+
+  const todos = state.get('list')
   const todo = todos.findById(idToFind)
 
-  render(renderApp('current', todo))
+  state.set('current', todo)
+  state.set('pageId', 'current')
 }

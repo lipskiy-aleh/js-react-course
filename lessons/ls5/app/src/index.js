@@ -6,8 +6,8 @@ import renderApp from './view/renderApp.js'
 
 import rootController from './controllers/rootController.js'
 
-import { set, get } from './engine/state.js'
-import render, { init } from './engine/render.js'
+import state from './engine/state.js'
+import { init } from './engine/render.js'
 const rootEl = document.getElementById('root')
 init(rootEl, rootController)
 
@@ -37,14 +37,18 @@ function addContent() {
     todoList.add(todo)
   })
 
-  set('todos', todoList)
+  state.set('list', todoList)
 }
 
 function initApp() {
   addContent()
 
-  const todoList = get('todos')
-  render(renderApp('list', todoList))
+  state.set('pageId', 'list')
+  state.subscribe(renderApp)
+
+  // state.set() => renderApp()
+  // Init render
+  renderApp()
 }
 
 initApp()

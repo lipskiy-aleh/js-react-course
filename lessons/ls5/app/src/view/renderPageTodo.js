@@ -1,4 +1,10 @@
-export default function renderPageTodo(todo) {
+import state from '../engine/state.js'
+
+export default function renderPageTodo() {
+  // GET DATA
+  const todo = state.get('current')
+
+  // CREATE HTML
   const el = document.createElement('div')
 
   const name = document.createElement('div')
