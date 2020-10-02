@@ -7,8 +7,13 @@
 * [Lesson 3: Webpack, npm. Data strucure](./lessons/ls3)
 * [Lesson 4: Asynchronous js](./lessons/ls4)
 * [Lesson 5,6: SPA + MVC](./lessons/ls5)
-* [Lesson 7: React](./lessons/ls7)
+* [Lesson 7,8: React](./lessons/ls7)
 * Will be soon...  
+
+## Final project
+* [YouTube](./finalProjects/youtube/)
+* [Match-match game](./finalProjects/matchMatchGame/)
+* [ToDo list](./finalProjects/todo/)
 
 ## [Codewars](./codewars.md)
 
