@@ -8,6 +8,7 @@
 * [Lesson 4: Asynchronous js](./lessons/ls4)
 * [Lesson 5,6: SPA + MVC](./lessons/ls5)
 * [Lesson 7,8: React](./lessons/ls7)
+* [Lesson 9: React-Router](./lessons/ls9)
 * Will be soon...  
 
 ## Final project
