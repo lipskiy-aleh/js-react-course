@@ -2,7 +2,7 @@
 
 1. Create app with `create-react-app`, [docs](https://github.com/facebook/create-react-app)
 2. Add `react-router-dom`. [How to add, see presentation](https://slides.com/aleh_lipski/deck-9d97b4)
-3. Create base pages components:
+3. Create pages components:
    * Welcome pg
    * Profile pg
    * Game pg
