@@ -1,32 +1,29 @@
-## Match-Match Game 
+# Match-Match Game 
 
-### Requirements
+Need to implement match-match game. [Example](https://www.mathsisfun.com/games/math-match-game.html)
+  
+  
+## Requirements
 
-1. When user enter to the game. He sees welcome page and short rules (with a link to **full rules page**)
-2. He feels profile:
-    - First Name
-    - Last Name
-    - eMail
-    - also can chose
-       - type of cards background
-       - the number of cards (difficulty of game)
-3. When user start the game, timer start work. Timer must calculate duration of game.
-4. Whe user click to the card - card will flips smoothly. If cards match they must be hide smoothly. If two cards don’t match cards should return to begining state.
-5. In the end of game - user see **congratulation page**
-6. The sorting of cards always should be random.
-7  App must have a **record page** with TOP 10 result
-8. Profile and table of records must be store in window.localStorage
+### Tech stack:
+* React
+* React-Router
+* Redux
+* any libraries which you need for implementation
 
 ### List of pages:
-* Welcome
-* Profile
-* Game page
-* Congratulation
-* TOP results  
+* [Welcome](./pages/welcome.md)
+* [Profile](./pages/profile.md)
+* [Game page](./pages/game.md)
+* [Congratulation](./pages/congratulation.md)
+* [Score](./pages/score.md)
+
+## Iterations
+* [First part](./iterations/iteration1.md)
 
 ---
 
-Example if app interface, but feel free to create the best design which you can:
+Example of interface, but feel free to create the best design which you can:
 
 ![Screen 1](./images/image001.jpg)
 ![Screen 2](./images/image002.jpg)
