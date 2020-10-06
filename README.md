@@ -13,7 +13,7 @@
 
 ---
 
-* Lesson 10: Advance React + PropTypes (HOC, Stateless и stateful(https://medium.com/@cgcrutch18/stateful-vs-stateless-react-components-13f647f7fc4), Fragment)
+* Lesson 10: Advance React + PropTypes (HOC, Stateless и stateful, Fragment)
 * Lesson 11: Redux
 * Lesson 12: Redux middleware
 * Lesson 17: PRACTIC
