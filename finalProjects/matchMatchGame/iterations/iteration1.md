@@ -17,4 +17,4 @@
     /congratulations  -> CongratulationPg
     /records          -> RecordsPg
     ```
-5. Implement `WelcomePg`, [Page requirements](../pages/welcome)
+5. Implement `WelcomePg`, [Page requirements](../pages/welcome.md)

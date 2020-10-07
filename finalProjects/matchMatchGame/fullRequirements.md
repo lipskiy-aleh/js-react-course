@@ -11,7 +11,7 @@
        - type of cards background
        - the number of cards (difficulty of game)
 3. When user start the game, timer start work. Timer must calculate duration of game.
-4. Whe user click to the card - card will flips smoothly. If cards match they must be hide smoothly. If two cards don’t match cards should return to begining state.
+4. When user click to the card - card will flips smoothly. If cards match they must be hide smoothly. If two cards don’t match cards should return to begining state.
 5. In the end of game - user see **congratulation page**
 6. The sorting of cards always should be random.
 7  App must have a **record page** with TOP 10 result
