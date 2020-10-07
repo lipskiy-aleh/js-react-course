@@ -20,6 +20,8 @@ Need to implement match-match game. [Example](https://www.mathsisfun.com/games/m
 
 ## Iterations
 * [First part](./iterations/iteration1.md)
+* [Second part](./iterations/iteration2.md)
+* [Third part](./iterations/iteration3.md)
 
 ---
 
