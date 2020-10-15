@@ -11,6 +11,7 @@
 * [Lesson 9: React-Router](./lessons/ls9)
 * Lesson 10: PRACTICE
 * [Lesson 11: Advance React](./lessons/ls11)
+* [Lesson 12: Redux](./lessons/ls12)
 * Will be soon...  
 
 ## Final project

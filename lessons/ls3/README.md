@@ -7,7 +7,7 @@
 ## [Presentation](https://docs.google.com/presentation/d/1DbqrJtnHqDYF69tWMvk5wCYPN9Bos_8Fg_RiZnc7p3k/edit?usp=sharing)
 ## [Lesson video](https://drive.google.com/file/d/12a11DoGkQ_NRLlTAT7QjesyM-2-7ZXGg/view?usp=sharing)  
 
-## Usefull links:
+## Useful links:
 ### Webpack, npm
 * [Npm documentation](https://docs.npmjs.com/cli-documentation/)
 * [Yarn documentation](https://classic.yarnpkg.com/en/docs/cli/)

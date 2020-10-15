@@ -6,7 +6,7 @@
   
 ## [Lesson video](https://drive.google.com/file/d/19eDX4dTihKHYJ7dWp3ufC9B5lTvHjIwV/view?usp=sharing)  
 
-## Usefull links:
+## Useful links:
 * [Explanation of JS core](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
 * [Awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 

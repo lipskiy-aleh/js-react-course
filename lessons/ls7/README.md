@@ -9,6 +9,6 @@
 * [Part 1](https://drive.google.com/file/d/16qDK1sRpl2aNWkkICvyYwfkktpoj7VcV/view?usp=sharing)  
 * [Part 2](https://drive.google.com/file/d/1WdtqycXYFQfcBf-d6fNclNKE4dWZLtoK/view?usp=sharing)
 
-## Usefull links:
+## Useful links:
 * [How to learn React](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
 * [Awesome React](https://github.com/enaqx/awesome-react)

@@ -7,7 +7,7 @@
 ## [Presentation](https://slides.com/aleh_lipski/deck-7b67eb)
 ## [Lesson video](https://drive.google.com/file/d/1B7rxGfrCWUYE5qES9tdbtSzPuY5p1wDM/view?usp=sharing)  
 
-## Usefull links:
+## Useful links:
 * [Callback Hell](http://callbackhell.com/)
 * [Promise error handling](https://web.dev/promises/#toc-error-handling)
 * [Fetch in more details](https://jakearchibald.com/2015/thats-so-fetch/)
