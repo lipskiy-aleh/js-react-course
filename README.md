@@ -12,7 +12,13 @@
 * Lesson 10: PRACTICE
 * [Lesson 11: Advance React](./lessons/ls11)
 * [Lesson 12: Redux](./lessons/ls12)
-* Will be soon...  
+* [Lesson 13: Redux middleware](./lessons/ls12)
+* Lesson 14: PRACTICE
+* Lesson 15:
+* Lesson 16:
+* Lesson 17:
+* Lesson 18:
+* Lesson 19: Final lesson
 
 ## Final project
 * [Match-match game](./finalProjects/matchMatchGame/)
