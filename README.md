@@ -14,7 +14,7 @@
 * [Lesson 12: Redux](./lessons/ls12)
 * [Lesson 13: Redux middleware](./lessons/ls12)
 * Lesson 14: PRACTICE
-* Lesson 15:
+* [Lesson 15: QUIZ](./lessons/quiz)
 * Lesson 16:
 * Lesson 17:
 * Lesson 18:

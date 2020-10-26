@@ -16,12 +16,16 @@
 * Lesson 12: Redux
 * Lesson 13: Redux middleware
 * Lesson 14: PRACTICE
-* Lesson 15: Testing react cmps (why do we need tests, tests type(unit, e2e, integration))
+
+* Lesson 15: QUIZ js
 * Lesson 16: Typescript p.1
 * Lesson 17: Typescript p.2
 * Lesson 18: 
 * Final lesson: Project presentations
-* Will be soon...  
+<!-- * Will be soon...   -->
+-----
+Add to program: 
+* Lesson N: Testing react cmps (why do we need tests, tests type(unit, e2e, integration))
  
 
 ## Final project
