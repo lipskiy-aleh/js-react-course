@@ -4,7 +4,7 @@
 1) first name, last name - text input
 2) email - input with email validation
 3) difficulty - select with **3** options:
-   * easy (5 colums x 4 rows) 
+   * easy (4 colums x 4 rows) 
    * medium ( 6x6 )
    * hard ( 8x8 )
 4) Card shirt - at least **three** type of shirt
