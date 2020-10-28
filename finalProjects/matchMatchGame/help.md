@@ -18,7 +18,7 @@ Example:
 After this step you should have:  
 ```
   //for easy game 
-  const cardsData = ['A','B','C','D', 'E', 'F','A','B','C','D', 'E', 'F','A','B','C','D']
+  const cardsData = ['A','A','B','B','C','C','D','D','E','E','F','F','A','A','B','B']
 ```
   
 3) Than shuffle this array:
