@@ -1,30 +1,29 @@
 # JS-Course
 
-## Programm
+## Program
 
-* [Lesson 1: Git + program overview](./ls1)
-* [Lesson 2: Inheritance in JS](./ls1)
-* Will be soon...  
+* [Lesson 1: Git + program overview](./lessons/overview)
+* [Lesson 2: Inheritance in JS]()
+* [Lesson 3: Webpack, npm]()
+* [Lesson 3p2: Data structure]()
+* [Lesson 4: Asynchronous js]()
+* [Lesson 5,6: SPA + MVC]()
+* [Lesson 7,8: React]()
+* [Lesson 9: React-Router]()
+* Lesson 10: PRACTICE
+* [Lesson 11: Advance React]()
+* [Lesson 12: Redux]()
+* [Lesson 13: Redux middleware]()
+* Lesson 14: PRACTICE
+* [Lesson 15: QUIZ]()
+* Lesson 16: Typescript p1
+* Lesson 17: 
+* Lesson 18:
+* Lesson 19: Final lesson
 
-## [Codewars](./codewars)
+## Final project
 
-## Work with tasks by GIT
-
-1) Go to **master** branch
-2) `pull` all data from remote repository
-3) Create a branch  
-  **branch name pattern:** `task-[Task name]`  
-  Example: `task-Git`  
-4) Create a folder folder name must be the same like a branch name
-5) Go to created in step 4 folder
-6) Implement your code
-7) Commit code to git
-8) `push` code to remote repository
-9) Create Pull Request(PR) and assign this PR to your teacher  
-**Important:**  
-    * Changes must not contain commented code, unnecessary files, changes from other branches and generated files like *.bundle.js. Please review your changes before contributing. .editorconfig, .gitignore, etc. can be included  
-
-
-10) Send the link to PR to teacher
-11) Waiting review
+## Resources
+* [Codewars](./codewars.md)
+* [How to work with tasks](./prRules.md)
    
