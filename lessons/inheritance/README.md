@@ -2,9 +2,9 @@
 
 ## [Home Work](../../tasks/inheritance.md)  
   
-**Deadline: 16.09.2020**  
+**Deadline: 24.11.2020**  
   
-## [Lesson video](https://drive.google.com/file/d/19eDX4dTihKHYJ7dWp3ufC9B5lTvHjIwV/view?usp=sharing)  
+## [Lesson video]()  
 
 ## Useful links:
 * [Explanation of JS core](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
