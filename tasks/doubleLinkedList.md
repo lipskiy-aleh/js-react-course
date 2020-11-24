@@ -23,7 +23,7 @@ dll.tail();
 // if argument === false -> print from tail to head (reverse direction)
 // by default argument = true
 // 1 -> 2 -> 3 -> [till the end]
-dll.traverse();
+dll.traverse(order);
 
 // stores specified value in list; method should be chainable;
 dll.add(value); 
@@ -40,6 +40,18 @@ dll.delete(value);
 // looking for stored data in list using value; method must return true/false
 dll.isExist(value);
 ``` 
+
+### Node should look like in example bellow
+```js
+class Node {
+  constructor(data) {
+    this.data = data
+
+    this.previous = null
+    this.next = null
+  }
+}
+```
 
 ### Examples:
 ```js
