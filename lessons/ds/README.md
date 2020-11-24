@@ -7,7 +7,7 @@
 **Deadline: 01.12.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-431aba)
-## [Lesson video]()  
+## [Lesson video](https://drive.google.com/file/d/1Km-md7BHuWPDZhYrNXCHSg7VeoXFCFDw/view?usp=sharing)  
 
 ## Useful links:
 * [#1. What is Data Structure and why it’s so important?](https://medium.com/data-structure/what-is-data-structure-and-why-its-so-important-c19e09b953e0)
