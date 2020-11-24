@@ -3,7 +3,9 @@
 // __proto__ ссылка на prototype родителя
 
 // Machine - function constructor 
-function Machine() {
+function Machine(value) {
+  this.value = value
+
   this.enableProperty = false
 }
 
@@ -20,12 +22,12 @@ Machine.prototype.disable = function() {
 }
 
 
-// const machine = new Machine() 
+const machine = new Machine() 
 //machine - instance class
 
 
-function CoffeMachine() {
-  Machine.call(this) // ES6 super()
+function CoffeMachine(value) {
+  Machine.call(this, value) // ES6 super()
 
   this.waterAmount = 0
 }
@@ -53,3 +55,9 @@ CoffeMachine.prototype.enable = function() {
 
 const coffeMachine = new CoffeMachine()
 coffeMachine.enable()
+
+
+
+const int = new IntBuilder(1)
+
+int.plus(10).plus(20).plus(30).minus(15)
