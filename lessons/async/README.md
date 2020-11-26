@@ -1,11 +1,11 @@
-# Lesson 4 - Asynchronous js.
+# Asynchronous js.
 
 ## [Home Work](../../tasks/weatherApi.md)  
   
 **Deadline: 28.09.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7b67eb)
-## [Lesson video](https://drive.google.com/file/d/1B7rxGfrCWUYE5qES9tdbtSzPuY5p1wDM/view?usp=sharing)  
+## [Lesson video]()  
 
 ## Useful links:
 * [Callback Hell](http://callbackhell.com/)
