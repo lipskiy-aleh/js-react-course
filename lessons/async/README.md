@@ -2,7 +2,7 @@
 
 ## [Home Work](../../tasks/weatherApi.md)  
   
-**Deadline: 28.09.2020**  
+**Deadline: 08.12.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7b67eb)
 ## [Lesson video]()  
