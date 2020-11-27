@@ -5,7 +5,7 @@
 **Deadline: 08.12.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7b67eb)
-## [Lesson video]()  
+## [Lesson video](https://drive.google.com/file/d/1HGc3a9MPRW6S3drNbsdnEJOxLJ_whHXp/view?usp=sharing)  
 
 ## Useful links:
 * [Callback Hell](http://callbackhell.com/)
