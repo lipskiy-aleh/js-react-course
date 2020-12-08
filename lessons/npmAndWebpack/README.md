@@ -1,11 +1,12 @@
-# Lesson 3 - Webpack, npm. Data strucure.
+# Npm and Webpack.
 
-## [Home Work](../../tasks/binaryTree.md)  
+<!-- ## [Home Work]()   -->
+## Home Work TBD 
   
-**Deadline: 21.09.2020**  
+<!-- **Deadline: 21.09.2020**   -->
 
-## [Presentation](https://docs.google.com/presentation/d/1DbqrJtnHqDYF69tWMvk5wCYPN9Bos_8Fg_RiZnc7p3k/edit?usp=sharing)
-## [Lesson video](https://drive.google.com/file/d/12a11DoGkQ_NRLlTAT7QjesyM-2-7ZXGg/view?usp=sharing)  
+## [Presentation](https://slides.com/aleh_lipski/deck-472451)
+## [Lesson video]()  
 
 ## Useful links:
 ### Webpack, npm
@@ -17,8 +18,3 @@
 * [Eslint](https://eslint.org/)
 * [TC39 stages description](https://tc39.es/process-document/)
 * [Can i use](https://caniuse.com/)
-  
-### Data structure
-* [Visualising data structures and algorithms](https://visualgo.net/en)
-
-
