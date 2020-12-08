@@ -9,7 +9,6 @@
 ## [Lesson video]()  
 
 ## Useful links:
-### Webpack, npm
 * [Npm documentation](https://docs.npmjs.com/cli-documentation/)
 * [Yarn documentation](https://classic.yarnpkg.com/en/docs/cli/)
 * [Webpack](https://webpack.js.org/guides/getting-started/)
