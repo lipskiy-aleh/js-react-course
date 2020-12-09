@@ -1,12 +1,11 @@
 # Npm and Webpack.
 
-<!-- ## [Home Work]()   -->
-## Home Work TBD 
+## [Home Work](../../tasks/webpack.md)  
   
-<!-- **Deadline: 21.09.2020**   -->
+**Deadline: 15.12.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-472451)
-## [Lesson video]()  
+## [Lesson video](https://drive.google.com/file/d/1AItaPSofvE7u_qe8j3DDcOsA0uwBe6oE/view?usp=sharing)  
 
 ## Useful links:
 * [Npm documentation](https://docs.npmjs.com/cli-documentation/)
