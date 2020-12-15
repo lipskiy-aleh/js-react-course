@@ -1,8 +1,8 @@
 # React.
 
-<!-- ## [Home Work]()  
+## [Home Work](../../tasks/reactSimple.md)  
   
-**Deadline: TBD**   -->
+**Deadline: 17.12.2020**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7e7c55)
 ## [Lesson videos ]()
