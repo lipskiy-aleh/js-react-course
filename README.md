@@ -9,6 +9,7 @@
 * [Lesson 5: Npm and Webpack](./lessons/npmAndWebpack)
 * [Lesson 6: SPA and MVC](./lessons/spa_mvc)
 * [Lesson 7: React](./lessons/react)
+* [Lesson 8: Redux](./lessons/redux)
 
 <!-- 
 ## Final project -->
