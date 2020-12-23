@@ -10,6 +10,7 @@
 * [Lesson 6: SPA and MVC](./lessons/spa_mvc)
 * [Lesson 7: React](./lessons/react)
 * [Lesson 8: Redux](./lessons/redux)
+* [Lesson 9: React part 2](./lessons/reactP2)
 
 <!-- 
 ## Final project -->
