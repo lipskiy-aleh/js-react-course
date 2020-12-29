@@ -11,6 +11,9 @@
 * [Lesson 7: React](./lessons/react)
 * [Lesson 8: Redux](./lessons/redux)
 * [Lesson 9: React part 2](./lessons/reactP2)
+* [Lesson 10: Typescript](./lessons/typescript)
+* [Lesson 11: QUIZ](./lessons/quiz)
+* [VACATION TODO](./vacation.md)
 
 <!-- 
 ## Final project -->
