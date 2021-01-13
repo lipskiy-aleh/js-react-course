@@ -14,6 +14,7 @@
 * [Lesson 10: Typescript](./lessons/typescript)
 * [Lesson 11: QUIZ](./lessons/quiz)
 * [VACATION TODO](./vacation.md)
+* [Lesson 12: React-router](./lessons/reactRouter)
 
 <!-- 
 ## Final project -->
