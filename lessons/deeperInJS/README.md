@@ -2,7 +2,7 @@
 
 <!-- ## [Presentation](https://slides.com/aleh_lipski/deck-199132) -->
 
-## [Lesson videos](https://drive.google.com/file/d/1JYsOlMKFjIEkm3NE8ARq7tVEmqhANxNB/view?usp=sharing)
+## [Lesson videos](https://drive.google.com/file/d/1QFlZmihsStgpdz2lHAoykiwbSnisfYeM/view?usp=sharing)
 
 ## Useful links:
 * Throttling and debouncing
