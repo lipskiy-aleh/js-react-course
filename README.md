@@ -16,9 +16,9 @@
 * [VACATION TODO](./vacation.md)
 * [Lesson 12: React-router](./lessons/reactRouter)
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
+* [Lesson 14: Virtual DOM](./lessons/virtualDom)
 
-<!-- 
-## Final project -->
+## [Final project](https://github.com/lipskiy-aleh/organization-helper)
 
 ## Resources
 * [Codewars](./codewars.md)
