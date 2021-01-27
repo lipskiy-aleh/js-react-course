@@ -17,8 +17,10 @@
 * [Lesson 12: React-router](./lessons/reactRouter)
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
 * [Lesson 14: Virtual DOM](./lessons/virtualDom)
+* [Lesson 15: Redux-saga (video)](https://drive.google.com/file/d/1Rk_d6G_64KdUHDaMcDhTysFCRUgskJNC/view?usp=sharing)
+* [Lesson 16: PropTypes + Final project description (video)](https://drive.google.com/file/d/13bgHdRp1_m4X5SH9n3bpNPIbU8t0pt3T/view?usp=sharing)
 
-## [Final project](https://github.com/lipskiy-aleh/organization-helper)
+## [Final project](./finalProjects/matchMatchGame)
 
 ## Resources
 * [Codewars](./codewars.md)
