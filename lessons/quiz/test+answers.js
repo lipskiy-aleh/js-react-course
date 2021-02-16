@@ -1,120 +1,120 @@
 //######
 // Напишите код, который поможет определить является ли объект массивом
 
-const { array } = require("prop-types")
-
 Array.isArray()
+[] instanceof Array -> true/false
 
 //######
 // Перечислите все значения, которые приводятся к false
-
-null, undefined, 0, ''
-number, 'asd', {}, []
-// https://developer.mozilla.org/en-US/docs/Glossary/Truthy
-// https://developer.mozilla.org/en-US/docs/Glossary/Falsy
-
+0, null, undefined, NaN, ''
+true -> 1/any Number, [], "asdas", {}
 
 //######
 // Что произойдет в данном случае
 var sum = function(a,b){return a+b}
 sum.result = 4;
 
-// sum()
-// sum.result
+sum.result -> 4
 
 //######
 // Что произойдет в данном случае
 "с" > true
+false
 
 //######
 // Что произойдет в данном случае
 var x = null || 0 || { name: "false" };
+x = { name: "false" }
 
 //######
 // Что произойдет в данном случае
-var scope = "global "; 
+var scope = "global ";          
 function outer() {
 	function scope() {
-        console.log(scope); 
-	}
+		console.log(scope);
+    }
+
 	scope();
 }
 outer();
 
 //######
 // Что такое Hoisting?
-// https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
 
 //######
-// Что делает функция Function.prototype.bind.
+// Что делает функция Function.prototype.bind
+const a = function() {
+    this.b
+}
+let aCopy = a.bind({ b: 10 })
+aCopy() -> 10
+aCopy = aCopy.bind({ b: 100 })
+aCopy() -> 10
 // Напишите полифил.
 
-// Function.prototype.bind(context)
-function bind(fn, context) {
-    return function() {
-        return fn.call(context, arguments)
+function bind(func, context) {
+    return function(...args) {
+        return func.apply(context, args)
     }
 }
-function text() {
-    console.log(this.a)
-}
-var context = {a: 100}
-var newText = bind(text, context)
-newText()
+let aCopy = bind(a, { b: 10 })
+
 
 //######
-console.log("130" + 3 - "0"); // 1303 -> number
-console.log("two" / 2); // NaN
+console.log("130" + 3 - "0");   -> 1303
+console.log("two" / 2);         -> NaN
 
 //######
-var x; // undefined
+var x;
 var y = null;
-console.log(x == y); // true  -> undefined == false  ==  null == false
-console.log(x === y); // false 
-console.log(x === undefined); // true
+console.log(x == y); // -> true
+console.log(x === y); // -> false
+console.log(x === undefined); // -> true 
 
 //######
 var obj = {};
-console.log(obj.toString()); // [object object]
+console.log(obj.toString()); -> '[object Object]'
+var obj2 = { a: 100, b: 1000 }
+JSON.stringify(obj2)
+JSON.parse(obj2)
 
 //######
 var bool = "false";
-console.log(bool == false); // false
-console.log(Boolean(bool)); // true
+console.log(bool == false); -> false
+console.log(Boolean(bool)); -> true
 
 //######
-var result = "ten" * 2; // NaN
-console.log(result == NaN); // false // NaN !== NaN
+var result = "ten" * 2;
+console.log(result == NaN); -> false  // NaN !== NaN 
 
 //######
-// Как проверить что число NaN
-// typeof NaN === 'number'
-
-// Number.isNaN()
-
-// function isNaN(num) {
-//   return num !== num
-// }
+// Как проверить что число NaN 
+isNaN()
+function isNaN(num) {
+    return num !== num
+}
 
 //######
 var array1 = new Array(3);
-console.log(array1[0]);
+console.log(array1[0]); -> undefined
 
-array1.fill(10)
+array1.fill('abc')
 
 //######
 let x = 50;
 
 if (x < 100) {
    let x = 200;
-   console.log(x); 
+   console.log(x);
 }
 console.log(x);
 
 //######
 var arr1 = ["3"];
 var arr2 = ["3"];
-console.log(arr1 == arr2); // false
+arr2.push('5')
+console.log(arr1 == arr2); -> false
 
 //######
 function x(o){
@@ -126,18 +126,21 @@ function x(o){
 
 var obj = {a: 1};
 x(obj);
-console.log(obj.a) // 6
+console.log(obj.a) -> 6
 
 //######
 var obj = {x: 12};
 Object.prototype.z = 12;
-console.log(typeof obj.z == undefined); //number
+console.log(typeof obj.z == undefined);
+
+// obj.__proto__ === Object.prototype
+
+[].map()/reduce()/filter()/toString()
 
 //######
 var globalVar = "global";
 function test1() {
-    
-    console.log(globalVar); //undefined
+    console.log(globalVar); -> undefined
     return;
 
     var globalVar;
@@ -149,15 +152,16 @@ var i = 5;
 (function () {
     var j = 2;
 })();
-console.log(i + j);
+console.log(i + j); ->
 
 //######
 var sum = function(x, y){
     console.log(arguments.length); // 3
+    console.log(arguments) -> [3,5,8]
     return x + y;
 }
 
-console.log(sum(3, 5, 8)); // 8
+console.log(sum(3, 5, 8));
 
 //######
 var test2 = {
@@ -168,9 +172,6 @@ var test2 = {
 };
 
 var getName = test2.getName.bind(test2);
-console.log(getName() == "max") // true
-
-var getName = test2.getName;
 console.log(getName() == "max") // false
 
 //###
@@ -179,24 +180,24 @@ var test3 = function(){
     for(var i = 0; i < 10; i++){
         var j = i;
     }
-    console.log(i + j); // 19
+    console.log(i + j);
 };
-test3(); 
+test3();
 
 //###
 var answer = 42;
 
 var logAnswer = function() {
-    console.log(answer);
+    console.log(answer); // 42
 };
 
 var sum = function(x, y){
     var answer = x + y;
-    logAnswer();    //42
+    logAnswer();
     return answer;
 }
 
-console.log(sum(2,4));  
+console.log(sum(2,4)); // 6
 
 //###
 function Car(color){
@@ -204,14 +205,10 @@ function Car(color){
     that.color = color;
     return that;
 };
-// function Car(color){
-//     this.color = color;
-// };
 
 var lada = new Car("red");
 console.log(lada instanceof Car); // false
-
-// lada instanceof Car -> lada.prototype.contsructor === Car
+// lada.__proto__  Car.prototype
 
 //###
 function Car(color){
@@ -221,20 +218,26 @@ function Car(color){
 var lada = new Car("black");
 
 Car.prototype.currentGear = 5;
-console.log(++lada.currentGear); //6
-console.log(lada.currentGear) //6
-console.log(Car.prototype.currentGear); //5
+console.log(++lada.currentGear); -> 6
+lada.currentGear -> 6
+console.log(Car.prototype.currentGear); -> 5
 
 //###
 function Person(firstName, lastName) { 
     this.firstName = firstName;
     this.lastName = lastName;
     this.getName = () => this.firstName + " " + this.lastName;
+    this.getName = function() { return  this.firstName + " " + this.lastName };
 }
 
 let batman = new Person("Bruce", "Wayne");
 console.log(batman.getName()); // Bruce Wayne
 console.log(batman.getName.call({firstName:"Clark", lastName:"Kent"})); // Bruce Wayne
+
+// (...args) => {}
+// function() {}
+arguments
+
 
 //###
 var o = {
@@ -249,8 +252,13 @@ var o = {
         }
     };
 
-console.log(o < "9"); // false  -> o.valueOf() < Number("9")
+console.log(o < "9"); // false
 
 //###
 // ***
 console.log( 10['toString']['length'] ); // 1
+
+
+function* test() {
+    yield 
+}

@@ -1,8 +1,10 @@
 # QUIZ.
 
-## [Test](../../test.js)
+## Test
+* [Questions](./test.js)
+* [Answers](./test+answers.js)
 
-## [Analysis video](https://drive.google.com/file/d/1e1H9zWJXxoTE7vvhX1VCLo-RG0kEnmOZ/view?usp=sharing)
+## [Analysis video](https://drive.google.com/file/d/1m6DqPleBsUwFRM688Oa0naFmk4VLEWOD/view?usp=sharing)
 
-## Links
-* [Comparison](https://learn.javascript.ru/comparison)
+<!-- ## Links
+* [Comparison](https://learn.javascript.ru/comparison) -->
