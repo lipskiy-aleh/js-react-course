@@ -8,8 +8,8 @@
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-431aba)
 ## Lesson videos
-*[Part 1](https://drive.google.com/file/d/1bs2kHyGMWVhCoPVVP4wPT_zwOkA0bZf3/view?usp=sharing)  
-*[Part 2](https://drive.google.com/file/d/1BtN2T_05dhm4BhCw72XJPdtntv8exq2T/view?usp=sharing)  
+* [Part 1](https://drive.google.com/file/d/1bs2kHyGMWVhCoPVVP4wPT_zwOkA0bZf3/view?usp=sharing)  
+* [Part 2](https://drive.google.com/file/d/1BtN2T_05dhm4BhCw72XJPdtntv8exq2T/view?usp=sharing)  
 
 ## Useful links:
 * [#1. What is Data Structure and why it’s so important?](https://medium.com/data-structure/what-is-data-structure-and-why-its-so-important-c19e09b953e0)
