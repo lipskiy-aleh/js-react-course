@@ -12,4 +12,5 @@
 * [The Complete Guide to JavaScript Classes [EN]](https://dmitripavlutin.com/javascript-classes-complete-guide/)
 * [Explanation of JS core [RU]](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
 * [Awesome-javascript [EN]](https://github.com/sorrycc/awesome-javascript)
+* [Understanding Method Chaining In Javascript [EN]](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
 
