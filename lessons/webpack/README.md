@@ -1,18 +1,13 @@
-# Npm and Webpack.
+# Webpack.
 
 ## [Home Work](../../tasks/webpack.md)  
   
-**Deadline: 15.12.2020**  
+**Deadline: 16.03.2021**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-472451)
-## [Lesson video](https://drive.google.com/file/d/1AItaPSofvE7u_qe8j3DDcOsA0uwBe6oE/view?usp=sharing)  
+## [Lesson video]()  
 
 ## Useful links:
-* [Npm documentation](https://docs.npmjs.com/cli-documentation/)
-* [Yarn documentation](https://classic.yarnpkg.com/en/docs/cli/)
 * [Webpack](https://webpack.js.org/guides/getting-started/)
+* [How to configure CSS and CSS modules in webpack [EN]](https://blog.jakoblind.no/css-modules-webpack/#:~:text=To%20be%20able%20to%20use,module%20keyword%20in%20your%20webpack.)
 * [Parcel](https://parceljs.org/getting_started.html)
-* [Babel](https://babeljs.io/docs/en/)
-* [Eslint](https://eslint.org/)
-* [TC39 stages description](https://tc39.es/process-document/)
-* [Can i use](https://caniuse.com/)
