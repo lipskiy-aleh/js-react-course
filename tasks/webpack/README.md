@@ -1,6 +1,6 @@
 # Webpack
 
-Current task must be implemented based on [weather api hw](./weatherApi.md)
+Current task must be implemented based on [weather api hw](../weatherApi.md)
 
 ## Requirements:
 * Init `package.json` in folder with weather api
