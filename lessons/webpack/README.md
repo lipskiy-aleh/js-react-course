@@ -1,6 +1,6 @@
 # Webpack.
 
-## [Home Work](../../tasks/webpack.md)  
+## [Home Work](../../tasks/webpack/)  
   
 **Deadline: 16.03.2021**  
 
