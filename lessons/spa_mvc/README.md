@@ -1,4 +1,4 @@
-# Lesson 5 - SPA + MVC.
+# SPA + MVC.
 
 <!-- ## [Home Work]()  
   
