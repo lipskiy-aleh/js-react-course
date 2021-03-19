@@ -1,7 +1,9 @@
 # Virtual DOM.
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-2afe03)
-## [Lesson video](https://drive.google.com/file/d/1PRADtv5dgkhWCpVzgRUZT5VxX2YrIjkc/view?usp=sharing)
+## Lesson video
+* [Theory](https://drive.google.com/file/d/1KNl8CQhgSu9fRKzl3iJewyG3FlOyRrmJ/view?usp=sharing)
+* [Practice](https://drive.google.com/file/d/1FyMo6TJAvQErBG87wum_XVQyATYp85It/view?usp=sharing)
 
 ## Useful links:
 * [Что такое Virtual DOM?(RU)](https://habr.com/ru/post/256965/)
