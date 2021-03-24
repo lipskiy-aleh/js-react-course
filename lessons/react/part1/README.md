@@ -1,6 +1,6 @@
 # React.
 
-## [Home Work](../../tasks/reactSimple.md)  
+## [Home Work](../../../tasks/reactSimple.md)  
   
 **Deadline: 23.03.2021**  
 

@@ -1,12 +1,12 @@
 # React part 2.
 
-## [Home Work](../../tasks/currencyExchange.md)  
+## [Home Work](../../../tasks/currencyExchange.md)  
   
-**Deadline: 29.12.2020**  
+**Deadline: 30.03.2021**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-53ce2f)
 
-## [Lesson videos](https://drive.google.com/file/d/1EoYaxSj9Iq2Ely-S98hm75lTsD11ulXD/view)
+## [Lesson videos](https://drive.google.com/file/d/1CSey8IlG0iV9yFeMCB0jWj_7tx0_ADmy/view?usp=sharing)
 
 ## Useful links:
 * [Hooks documentation [EN]](https://reactjs.org/docs/hooks-intro.html)
