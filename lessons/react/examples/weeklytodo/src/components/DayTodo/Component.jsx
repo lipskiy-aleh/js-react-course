@@ -1,16 +1,17 @@
 import React from 'react'
 import { DONE_TODO_STATUS } from '../../constants'
+import { withCreationTime } from '../../hocs/withCreationTime'
 import { AddTodo } from '../AddTodo'
 import './style.css'
 
-export class DayTodo extends React.Component {
+class DayTodoCmp extends React.PureComponent {
   onAddTodo = (todo) => {
     const { name, onAddTodo } = this.props
     onAddTodo(name, todo)
   }
 
   render() {
-    const { name, todo, onTodoClick } = this.props
+    const { name, todo, onTodoClick, focusInput } = this.props
 
     return (
       <div className="day_todo">
@@ -28,8 +29,11 @@ export class DayTodo extends React.Component {
         </div>
         <AddTodo
           onAdd={this.onAddTodo}
+          focusInput={focusInput}
         />
       </div>
     )
   }
 }
+
+export const DayTodo = withCreationTime(DayTodoCmp)

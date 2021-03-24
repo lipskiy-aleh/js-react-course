@@ -1,13 +1,16 @@
 import React from 'react'
 import './style.css'
+import { withCreationTime } from '../../hocs/withCreationTime'
 
-export class AddTodo extends React.Component {
+class AddTodoCmp extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
       inputValue: ''
     }
+
+    this.inputref = React.createRef()
   }
 
   inputHandler = (e) => {
@@ -34,3 +37,5 @@ export class AddTodo extends React.Component {
     )
   }
 }
+
+export const AddTodo = withCreationTime(AddTodoCmp, {})

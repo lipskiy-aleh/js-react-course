@@ -79,7 +79,6 @@ export class WeeklyTodo extends React.Component {
   }
 
   render() {
-    console.log(this.state.weekData)
     return (
       <div className="weekly_todo">
         {this.state.weekData.map(({ name, todo }) => (
@@ -89,6 +88,7 @@ export class WeeklyTodo extends React.Component {
             todo={todo}
             onAddTodo={this.onAddTodo}
             onTodoClick={this.onTodoClick}
+            focusInput={name === 'Monday'}
           />
         ))}
       </div>
