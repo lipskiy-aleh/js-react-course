@@ -1,0 +1,18 @@
+.navigation {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation ul > li{
+  height: 20px;
+  width: 200px;
+}
+
+.navigation ul > li:hover{
+  background-color: #c3c3c3;
+}

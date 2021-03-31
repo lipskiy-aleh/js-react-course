@@ -1,10 +1,41 @@
 import React from 'react'
-import { DONE_TODO_STATUS } from '../../constants'
+import PropTypes from 'prop-types'
+import { DONE_TODO_STATUS, NEW_TODO_STATUS } from '../../constants'
 import { withCreationTime } from '../../hocs/withCreationTime'
 import { AddTodo } from '../AddTodo'
 import './style.css'
 
+// class Todo {
+//   constructor(todoText) {
+//     this.id = new Date().getTime();
+//     this.status = NEW_TODO_STATUS;
+//     this.text = todoText;
+//   }
+// }
+
+// todo = [new Todo(''), ....]
+// todo: PropsTypes.arrayOf(PropsTypes.instanceOf(Todo))
+
 class DayTodoCmp extends React.PureComponent {
+  static propTypes = {
+    name: PropTypes.string.isRequired,
+    todo: PropTypes.arrayOf(
+      PropTypes.exact({
+        text: PropTypes.string,
+        id: PropTypes.number,
+        status: PropTypes.oneOf([DONE_TODO_STATUS, NEW_TODO_STATUS]),
+      })
+    ),
+    onTodoClick: PropTypes.func,
+    focusInput: PropTypes.bool,
+  }
+
+  static defaultProps = {
+    todo: [],
+    focusInput: false,
+    onTodoClick: () => {},
+  }
+
   onAddTodo = (todo) => {
     const { name, onAddTodo } = this.props
     onAddTodo(name, todo)
