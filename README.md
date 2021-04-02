@@ -14,7 +14,7 @@
   * [Lesson 9: Virtual DOM](./lessons/react/virtualDom)
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React-router](./lessons/react/router)
-  * [Lesson 11: React and style](./lessons/react/reactAndStyle)
+  * [Lesson 12: React and style](./lessons/react/reactAndStyle)
 
 <!-- * [Lesson 2: Inheritance](./lessons/inheritance)
 * [Lesson 8: Redux](./lessons/redux)
