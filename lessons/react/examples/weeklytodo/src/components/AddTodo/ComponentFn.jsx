@@ -1,19 +1,20 @@
 import React, { useState, useRef, useEffect, useCallback, memo } from 'react'
-import './style.css'
+import { Button, Input } from 'antd'
+import { PlusOutlined } from '@ant-design/icons'
 
 export const AddTodo = memo((props) => {
-  const { onAdd, focusInput  } = props
+  const { onAdd, focusInput } = props
   const [value, setValue] = useState('')
   const inputRef = useRef(null)
 
   useEffect(() => {
-    if(focusInput) {
+    if (focusInput && inputRef && inputRef.current) {
       inputRef.current.focus()
     }
 
     // componetDidUnmount
     return () => {
-      console.log('Unmount')
+      // console.log('Unmount')
     }
   }, [focusInput])
   // [] === componentDidMount()
@@ -24,9 +25,22 @@ export const AddTodo = memo((props) => {
   }, [onAdd, value])
 
   return (
-    <div className="add_todo">
-      <input ref={inputRef} type="text" value={value} onChange={(e) => setValue(e.target.value)}/>
-      <button onClick={onAddClick}>ADD</button>
-    </div>
+    <Input
+      ref={inputRef}
+      value={value}
+      onChange={(e) => setValue(e.target.value)}
+      onPressEnter={onAddClick}
+      placeholder="todo text"
+      addonAfter={
+        <Button
+          type="text"
+          size="small"
+          shape="circle"
+          icon={<PlusOutlined />}
+          onClick={onAddClick}
+          disabled={!value}
+        />
+      }
+    />
   )
 })

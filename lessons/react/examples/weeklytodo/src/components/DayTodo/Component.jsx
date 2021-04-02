@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { DONE_TODO_STATUS, NEW_TODO_STATUS } from '../../constants'
 import { withCreationTime } from '../../hocs/withCreationTime'
 import { AddTodo } from '../AddTodo'
-import './style.css'
+import { StyledCard, CardContent, TodoCheckbox } from './styled'
+import { List } from 'antd'
 
 // class Todo {
 //   constructor(todoText) {
@@ -45,24 +46,39 @@ class DayTodoCmp extends React.PureComponent {
     const { name, todo, onTodoClick, focusInput } = this.props
 
     return (
-      <div className="day_todo">
-        <div>
-          <h3>{name}</h3>
-          <ul className="day_todo__content">
-            {todo.map(({ text, id, status }) => (
-              <li
-                key={id}
-                onClick={() => onTodoClick(name, id)}
-                className={status === DONE_TODO_STATUS ? 'done_todo' : ''}
-              >{text}</li>
-            ))}
-          </ul>
-        </div>
-        <AddTodo
-          onAdd={this.onAddTodo}
-          focusInput={focusInput}
-        />
-      </div>
+      <StyledCard
+        title={name}
+      >
+        <CardContent>
+            <List
+              dataSource={todo}
+              renderItem={({ text, id, status }) => (
+                <List.Item
+                  key={id}
+                >
+                  <TodoCheckbox
+                    checked={status === DONE_TODO_STATUS}
+                    onChange={() => onTodoClick(name, id, status)}
+                  >
+                    {text}
+                  </TodoCheckbox>
+                </List.Item>
+              )}
+            />
+              {/* {todo.map(({ text, id, status }) => (
+                <li
+                  key={id}
+                  onClick={() => onTodoClick(name, id)}
+                  className={status === DONE_TODO_STATUS ? 'done_todo' : ''}
+                >{text}</li>
+              ))}
+            </List> */}
+          <AddTodo
+            onAdd={this.onAddTodo}
+            focusInput={focusInput}
+          />
+        </CardContent>
+      </StyledCard>
     )
   }
 }

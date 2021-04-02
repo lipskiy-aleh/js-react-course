@@ -1,7 +1,7 @@
 import React from 'react'
-import './style.css'
 import { DayTodo } from '../DayTodo'
 import { NEW_TODO_STATUS, DONE_TODO_STATUS } from '../../constants'
+import { WeeklyTodoWrapper } from './Styled'
 
 function getInitWeekData() {
   const week = [
@@ -54,7 +54,7 @@ export class WeeklyTodo extends React.Component {
     this.setState({ weekData: newWeek })
   }
 
-  onTodoClick = (dayName, todoId) => {
+  onTodoClick = (dayName, todoId, status) => {
     const newWeek = this.state.weekData.map((data) => {
       if (data.name !== dayName) {
         return data
@@ -69,7 +69,7 @@ export class WeeklyTodo extends React.Component {
 
           return {
             ...todo,
-            status: DONE_TODO_STATUS,
+            status: status === NEW_TODO_STATUS ? DONE_TODO_STATUS : NEW_TODO_STATUS,
           }
         })
       })
@@ -80,7 +80,7 @@ export class WeeklyTodo extends React.Component {
 
   render() {
     return (
-      <div className="weekly_todo">
+      <WeeklyTodoWrapper>
         {this.state.weekData.map(({ name, todo }) => (
           <DayTodo
             key={name}
@@ -91,7 +91,7 @@ export class WeeklyTodo extends React.Component {
             focusInput={name === 'Monday'}
           />
         ))}
-      </div>
+      </WeeklyTodoWrapper>
     );
   }
 }

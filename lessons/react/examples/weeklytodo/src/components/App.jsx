@@ -1,44 +1,21 @@
-import { TodoRoot } from './TodoRoot'
 import {
   Switch,
   Route,
-  Redirect,
-} from 'react-router-dom'
-import { Navigation } from './Navigation'
+} from 'react-router-dom' 
+import { Header } from './Header'
 import { SecureRoute } from './SecureRoute';
 import { Login } from './Login';
-import auth from '../services/auth';
+import { routes } from './routes'
 
-const routes = [{
-  path: '/',
-  isExact: true,
-  title: 'Home',
-  component: (props) => <Redirect to="/todo" />
-},
-{
-  path: '/todo',
-  isSecured: true,
-  title: 'Todo',
-  component: TodoRoot
-},
-{
-  path: '/about',
-  title: 'About',
-  component: (props) => <div> Some description </div>
-}, {
-  path: '/logout',
-  title: 'Log out',
-  component: (props) => (
-    <div>
-      <button onClick={() => { auth.logout(); props.history.push('/login') }}>Logout</button>
-    </div>)
-}
-]
+import '../theme/index.less';
+// import 'antd/dist/antd.less'; 
+
+import { Layout } from 'antd'
 
 export function App() {
   return (
-    <div className="App">
-      <Navigation routes={routes} />
+    <Layout style={{ minHeight: '100vh' }}>
+      <Header routes={routes} />
 
       <Switch>
         {routes.map(({ path, component, isExact = false, isSecured = false }) => isSecured ? (
@@ -51,6 +28,6 @@ export function App() {
 
         <Route render={() => <div>NOT FOUND PAGE</div>} />
       </Switch>
-    </div>
+    </Layout>
   );
 }
