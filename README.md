@@ -15,17 +15,22 @@
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React-router](./lessons/react/router)
   * [Lesson 12: React and style](./lessons/react/reactAndStyle)
+  * [Lesson 13: React project structure](./lessons/react/projectStructure)
 
-<!-- * [Lesson 2: Inheritance](./lessons/inheritance)
+<!--
 * [Lesson 8: Redux](./lessons/redux)
+* [Lesson 15: Redux-saga (video)](https://drive.google.com/file/d/1Rk_d6G_64KdUHDaMcDhTysFCRUgskJNC/view?usp=sharing)
 * [Lesson 10: Typescript](./lessons/typescript)
 * [Lesson 11: QUIZ](./lessons/quiz)
-* [VACATION TODO](./vacation.md)
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
-* [Lesson 15: Redux-saga (video)](https://drive.google.com/file/d/1Rk_d6G_64KdUHDaMcDhTysFCRUgskJNC/view?usp=sharing)
-* [Lesson 16: PropTypes + Final project description (video)](https://drive.google.com/file/d/13bgHdRp1_m4X5SH9n3bpNPIbU8t0pt3T/view?usp=sharing) -->
+* [Lesson 16: PropTypes + Final project description (video)](https://drive.google.com/file/d/13bgHdRp1_m4X5SH9n3bpNPIbU8t0pt3T/view?usp=sharing) 
+* [VACATION TODO](./vacation.md)
+-->
 
-<!-- ## [Final project](./finalProjects/matchMatchGame) -->
+## Final projects
+* [Match-match game](./finalProjects/matchMatchGame)
+* [TODO app](./finalProjects/todo)
+* [Organization helper](https://github.com/lipskiy-aleh/organization-helper/tree/master/ui)
 
 ## Resources
 * [Codewars](./codewars.md)
