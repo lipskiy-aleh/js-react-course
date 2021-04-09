@@ -16,9 +16,9 @@
   * [Lesson 11: React-router](./lessons/react/router)
   * [Lesson 12: React and style](./lessons/react/reactAndStyle)
   * [Lesson 13: React project structure](./lessons/react/projectStructure)
+* [Lesson 14: Redux](./lessons/redux)
 
 <!--
-* [Lesson 8: Redux](./lessons/redux)
 * [Lesson 15: Redux-saga (video)](https://drive.google.com/file/d/1Rk_d6G_64KdUHDaMcDhTysFCRUgskJNC/view?usp=sharing)
 * [Lesson 10: Typescript](./lessons/typescript)
 * [Lesson 11: QUIZ](./lessons/quiz)
