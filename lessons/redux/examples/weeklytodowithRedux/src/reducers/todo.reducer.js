@@ -1,21 +1,13 @@
 import { generateWeekData } from '../services/weekData'
-
-// TODO: refactoring
-// import { ADD_TODO } from '../actions/todo.actions'
-const ADD_TODO = `todo/ADD_TODO`
-const COMPLETE_TODO = `todo/COMPLETE_TODO`
-
-
+import { SET_WEEK } from '../actions/todo.actions'
 
 const initialState = {
   week: generateWeekData()
 }
 
 export function todoReducer(state = initialState, action) {
-  console.log(action)
   switch (action.type) {
-    case ADD_TODO:
-    case COMPLETE_TODO:
+    case SET_WEEK:
       return {
         ...state,
         week: action.payload

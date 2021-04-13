@@ -1,1 +1,1 @@
-export { WeeklyTodo } from './Component'
+export { WeeklyTodo } from './Container'
