@@ -19,13 +19,11 @@
 * [Redux section](./lessons/redux)
   * [Lesson 14: Redux](./lessons/redux/coreConcept)
   * [Lesson 15: Redux-middleware](./lessons/redux/reduxMiddleware)
+* [Lesson 16: Typescript (part 1)](./lessons/typescript)
 
 <!--
-* [Lesson 15: Redux-saga (video)](https://drive.google.com/file/d/1Rk_d6G_64KdUHDaMcDhTysFCRUgskJNC/view?usp=sharing)
-* [Lesson 10: Typescript](./lessons/typescript)
 * [Lesson 11: QUIZ](./lessons/quiz)
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
-* [Lesson 16: PropTypes + Final project description (video)](https://drive.google.com/file/d/13bgHdRp1_m4X5SH9n3bpNPIbU8t0pt3T/view?usp=sharing) 
 * [VACATION TODO](./vacation.md)
 -->
 
