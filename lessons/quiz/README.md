@@ -4,7 +4,7 @@
 * [Questions](./test.js)
 * [Answers](./test+answers.js)
 
-## [Analysis video](https://drive.google.com/file/d/1m6DqPleBsUwFRM688Oa0naFmk4VLEWOD/view?usp=sharing)
+## [Explanation video](https://drive.google.com/file/d/1OObpmNtyXN8tDbjSM9R7CvjOZP6K0SKr/view?usp=sharing)
 
 <!-- ## Links
 * [Comparison](https://learn.javascript.ru/comparison) -->
