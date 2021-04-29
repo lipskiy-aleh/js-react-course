@@ -2,7 +2,9 @@
 
 ## Lessons
 
+* [Preparing](./coursePreparing)
 * [Lesson 1: Program overview](./lessons/overview)
+<!--
 * [Lesson 2: Npm, eslint, babel](./lessons/npm)
 * [Lesson 3: Inheritance](./lessons/inheritance)
 * [Lesson 4: Asynchronous js](./lessons/async)
@@ -22,16 +24,17 @@
 * [Lesson 16,17: Typescript](./lessons/typescript)
 * [Lesson 18: QUIZ](./lessons/quiz)
 * [Lesson 19: Testing](./lessons/testing)
-
-<!--
+* [Lesson 20: Server development](./lessons/testing)
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
 * [VACATION TODO](./vacation.md)
 -->
 
+<!-- 
 ## Final projects
 * [Match-match game](./finalProjects/matchMatchGame)
 * [TODO app](./finalProjects/todo)
 * [Organization helper](https://github.com/lipskiy-aleh/organization-helper/tree/master/ui)
+-->
 
 ## Resources
 * [Codewars](./codewars.md)
