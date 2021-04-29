@@ -1,33 +1,11 @@
 
 .week {
   display: flex;
-  list-style: none;
 }
 
 .day {
-  width: 150px;
   border: 1px solid black;
-  margin: 10px;
-}
-
-.day_name {
-  padding: 10px;
-}
-
-.day_todos {
-  border-top: 1px solid black;
-  padding: 10px;
-  height: 500px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.add_todo_bottom {
-  display: flex;
-  flex-direction: column;
-}
-.add_todo_bottom input {
-  margin-bottom: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
 }

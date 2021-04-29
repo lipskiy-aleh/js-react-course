@@ -13,10 +13,10 @@ const dll = new DoubleLinkedList();
 **/
 
 // returns head of the list;
-dll.head();  
+dll.getHead();  
 
 // returns tail of the list;
-dll.tail(); 
+dll.getTail(); 
 
 // return data of list in next format:
 // if argument === true -> print from head to tail (forward direction)

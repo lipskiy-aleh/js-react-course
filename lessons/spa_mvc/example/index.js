@@ -1,22 +1,22 @@
-import { renderWeek } from './view/week.js'
-import { Week } from './model/Week.js'
-import { createHandler } from './controller/root.js'
+import { renderApp } from './views/index.js'
+import { Calendar } from './models/calendar.js'
+import { initRootController } from './controllers/index.js'
 
+function initApplication() {
+  // 1 - init data
+  const appData = new Calendar();
 
+  // 3 - add global functions
+  window.getAppData = function() {
+    return appData
+  }
+  window.renderApp = renderApp
 
-function renderApp(data, container) {
-  const html = renderWeek(data)
+  // 2 - render application
+  renderApp(appData);
 
-  container.innerHTML = html
+  // 4 -  init controllers
+  initRootController()
 }
 
-
-
-function initApp() {
-  const container = document.getElementById('root')
-  const data = new Week()
-
-  renderApp(data, container)
-  createHandler(container, data, renderApp)
-}
-initApp()
+initApplication()

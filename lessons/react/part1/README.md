@@ -1,0 +1,12 @@
+# React.
+
+## [Home Work](../../../tasks/reactSimple.md)  
+  
+**Deadline: 23.03.2021**  
+
+## [Presentation](https://slides.com/aleh_lipski/deck-7e7c55)
+## [Lesson videos ](https://drive.google.com/file/d/1UFZZ_euCT4UyFlnSO0vD9CQmIoJ4ik7w/view?usp=sharing)
+
+## Useful links:
+* [How to learn React](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
+* [Awesome React](https://github.com/enaqx/awesome-react)
