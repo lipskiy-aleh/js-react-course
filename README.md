@@ -2,7 +2,7 @@
 
 ## Lessons
 
-* [Preparing](./coursePreparing)
+* [Preparing](./coursePreparing.md)
 * [Lesson 1: Program overview](./lessons/overview)
 <!--
 * [Lesson 2: Npm, eslint, babel](./lessons/npm)
