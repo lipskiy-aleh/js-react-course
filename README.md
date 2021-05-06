@@ -22,6 +22,7 @@
 * [Lesson 16,17: Typescript](./lessons/typescript)
 * [Lesson 18: QUIZ](./lessons/quiz)
 * [Lesson 19: Testing](./lessons/testing)
+* [Lesson 20: Server](./lessons/server)
 
 <!--
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
