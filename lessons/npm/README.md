@@ -1,13 +1,6 @@
 # Npm, Eslint, Babel.
 
-## Home Work
-1) Fork [repository](https://github.com/lipskiy-aleh/school_template)
-  * Add your mentor as collaborator (settings -> manage access -> invite a collaborator)
-  * Activate actions in your new repository
-2) Crate branch `task-git`
-3) Add information about yourself to Readme.md
-4) Create pull request
-5) Send link to mentor
+## [Home Work](../../tasks/npm)
 
 ## [Presentation](https://slides.com/aleh_lipski/npm-and-webpack)
 ## [Lesson video](https://drive.google.com/file/d/1S0NZbAbdMRaAJE7xvwPqu2XhMhxNQUkD/view?usp=sharing)  
