@@ -1,63 +1,66 @@
-// ES5 class 
-// __proto__ vs prototype
-// __proto__ ссылка на prototype родителя
 
-// Machine - function constructor 
-function Machine(value) {
-  this.value = value
-
-  this.enableProperty = false
-}
-
-Machine.prototype.status = function() {
-  console.log(this.enableProperty)
+function Machine(config) {
+  this.active = false
+  this.config = config
 }
 
 Machine.prototype.enable = function() {
-  this.enableProperty = true
+  this.active = true
 }
 
 Machine.prototype.disable = function() {
-  this.enableProperty = false
+  this.active = false
 }
 
 
-const machine = new Machine() 
-//machine - instance class
-
-
-function CoffeMachine(value) {
-  Machine.call(this, value) // ES6 super()
-
-  this.waterAmount = 0
+function CoffeeMachine(config) {
+  Machine.call(this, config)
 }
 
-// Object.create()
-CoffeMachine.prototype = Object.create(Machine.prototype)
-CoffeMachine.prototype.constructor = CoffeMachine
 
-CoffeMachine.prototype.makeCoffe = function(type) {
+// function createObject(parentPrototype) {
+//   function F() {}
+//   F.prototype = parentPrototype
+//   return new F()
+// }
+// CoffeeMachine.prototype = createObject(Machine.prototype)
+CoffeeMachine.prototype = Object.create(Machine.prototype)
+CoffeeMachine.prototype.constructor = CoffeeMachine
+
+CoffeeMachine.prototype.makeCoffee = function(type) {
+  if(!this.active) {
+    throw new Error('Pls activate machine')
+  }
+
   console.log(type)
 }
 
-CoffeMachine.prototype.setWaterAmount = function(amount) {
-  this.waterAmount = amount
-}
-
-CoffeMachine.prototype.enable = function() {
-  debugger
-  if(this.waterAmount === 0) {
-    return
-  }
-  
+CoffeeMachine.prototype.enable = function() {
   Machine.prototype.enable.call(this)
+  console.log('Enable coffee machine')
 }
 
-const coffeMachine = new CoffeMachine()
-coffeMachine.enable()
+const coffee = new CoffeeMachine({
+  name: '1',
+  type: 'coffeeMachine'
+})
+
+// class Machine{
+//   constructor() {
+        // super()
+//   }
+// }
 
 
+// const arr = [] // new Array()
+// arr.find()
 
-const int = new IntBuilder(1)
+// arr.__proto__  === Array.prototype
+// Array.prototype.__proto__  === Object.prototype
+// Object.prototype.__proto__ === null
 
-int.plus(10).plus(20).plus(30).minus(15)
+
+// // 1 - __proto__ vs prototype
+// // 2 - 
+// __proto__ === null
+// const obj = Object.create(null)

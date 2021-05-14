@@ -1,43 +1,61 @@
 
-function Machine() {
-  this._enableProperty = false
-}
+class Machine{
+  #active = false
+  example = 123
 
-Machine.prototype.status = function() {
-  console.log(this._enableProperty)
-}
+  constructor(config) {
+    this.config = config
 
-Machine.prototype.enable = function() {
-  this._enableProperty = true
-}
-
-Machine.prototype.disable = function() {
-  this._enableProperty = false
-}
-
-
-class CoffeMachine extends Machine{
-  constructor() {
-    super()
-
-    this.waterAmount = 0
+    // this.enable = this.enable.bind(this)
   }
 
-  makeCoffe(type) {
-    console.log(type)
+  get isActive() {
+    console.log('ACTIVE RETURNED')
+    return this.#active
   }
 
-  setWaterAmount(amount) {
-    this.waterAmount = amount
+  set active(value) {
+    if(typeof value !== 'boolean') {
+      return
+    }
+
+    this.#active = value
+  }
+
+  // isActive() {
+  //   return this.#active
+  // }
+
+  enable = () => {
+    this.#active = true
+  }
+
+  disable() {
+    this.#active = false
+  }
+}
+
+class CoffeeMachine extends Machine {
+  constructor(config) {
+    super(config)
   }
 
   enable() {
-    if(this.waterAmount === 0) {
-      return
-    }
-    
     super.enable()
+    console.log('Custom enable')
+  }
+
+  makeCoffee(type) {
+    if(!this.isActive) {
+      throw new Error('Before make coffee turn on')
+    }
+    console.log('In progress')
   }
 }
 
-const coffeMachine = new CoffeMachine()
+const coffee = new CoffeeMachine({ type: 'coffeeMachine' })
+
+
+// const machine = new Machine()
+// const func = machine.enable
+// func()

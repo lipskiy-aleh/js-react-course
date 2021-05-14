@@ -2,11 +2,11 @@
 
 ## [Home Work](../../tasks/inheritance.md)  
   
-**Deadline: 02.03.2021**  
+**Deadline: 20.05.2021**  
 
-## [Presentation](https://slides.com/aleh_lipski/deck-8adf3a)
+<!-- ## [Presentation](https://slides.com/aleh_lipski/deck-8adf3a) -->
   
-## [Lesson video](https://drive.google.com/file/d/1r_ve4MfLcjQPfNU-UsrtD4s3yA9WABAL/view?usp=sharing) 
+## [Lesson video](https://drive.google.com/file/d/1nUj1xwbwVZefUQHQ9RMsZFy7mCb8ODgA/view?usp=sharing) 
 
 ## Useful links:
 * [The Complete Guide to JavaScript Classes [EN]](https://dmitripavlutin.com/javascript-classes-complete-guide/)

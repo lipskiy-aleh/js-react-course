@@ -1,6 +1,6 @@
 # Inheritance
 
-Create a base class that will contain common methods. Then create 2 child classes (inherit from base): IntBuilder in ES5 style and StringBuilder in ES6 style. Almost all methods should be chainable for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
+Create a base class (with ES5) that will contain common methods. Then create 2 child classes (inherit from base): IntBuilder in ES5 style and StringBuilder in ES6 style. Almost all methods should be chainable for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
 
 #### ES5 class IntBuilder:
 ```javascript
