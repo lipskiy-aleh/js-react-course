@@ -9,8 +9,8 @@
 ## [Lesson video](https://drive.google.com/file/d/1nUj1xwbwVZefUQHQ9RMsZFy7mCb8ODgA/view?usp=sharing) 
 
 ## Useful links:
+* [JavaScript. Ядро. [RU]](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
 * [The Complete Guide to JavaScript Classes [EN]](https://dmitripavlutin.com/javascript-classes-complete-guide/)
-* [Explanation of JS core [RU]](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)
 * [Awesome-javascript [EN]](https://github.com/sorrycc/awesome-javascript)
 * [Understanding Method Chaining In Javascript [EN]](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
 
