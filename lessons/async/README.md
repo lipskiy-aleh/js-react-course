@@ -2,10 +2,10 @@
 
 ## [Home Work](../../tasks/weatherApi.md)  
   
-**Deadline: 04.03.2021**  
+**Deadline: 24.05.2021**  
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7b67eb)
-## [Lesson video](https://drive.google.com/file/d/1-H8DLhq0rK9YrsWUBHMWAkV9LxkgcdV2/view?usp=sharing)  
+## [Lesson video](https://drive.google.com/file/d/13XCIXDUVoAB9K_Gu_SO_TjJekUF-RuDr/view?usp=sharing)  
 
 ## Useful links:
 * [Callback Hell](http://callbackhell.com/)
