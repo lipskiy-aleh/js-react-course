@@ -1,30 +1,39 @@
+import { Sll } from 'linked-list'
+
 class HashTable {
-  constructor() {
-    this.storage = {}
-  }
+  #table = {}
 
-  add(key, value) {
-    const hash = this.hash(key)
-    this.storage[hash] = {
-      [key]: value
-    }
-  }
-
-  get(key) {
-    const hash = this.hash(key)
-    return this.storage[hash][key]
-  }
-
-  hash(key) {
+  _getHash(key) {
     return key.length
   }
+
+  insertData(key, data) {
+    const hash = this._getHash(key)
+
+    if(!this.#table[hash]) {
+      this.#table[hash] = new Sll()
+    }
+
+    this.#table[hash].add(key, data)
+  }
+
+  getData(key) {
+    const hash = this._getHash(key)
+
+    if(!this.#table[hash]) {
+      return null
+    }
+
+    return this.#table[hash].get(key)
+  }
+
+  removeData(key) {
+    const hash = this._getHash(key)
+
+    if(!this.#table[hash]) {
+      return null
+    }
+
+    return this.#table[hash].remove(key)
+  }
 }
-
-const hashTable = new HashTable()
-hashTable.add('a', 'Hello world')
-hashTable.add('ab', 'Hello world 1')
-hashTable.add('abc', 'Hello world 2')
-
-console.log(
-  hashTable.storage
-)
