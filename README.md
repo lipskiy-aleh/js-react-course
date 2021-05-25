@@ -8,8 +8,8 @@
 * [Lesson 3: Inheritance](./lessons/inheritance)
 * [Lesson 4: Asynchronous js](./lessons/async)
 * [Lesson 5: Data Structures](./lessons/ds)
-<!--
 * [Lesson 6: Webpack](./lessons/webpack)
+<!--
 * [Lesson 7: SPA and MVC](./lessons/spa_mvc)
 * [React section](./lessons/react)
   * [Lesson 8: React](./lessons/react/part1)
