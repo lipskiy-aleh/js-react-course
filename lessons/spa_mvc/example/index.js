@@ -1,22 +1,31 @@
-import { renderApp } from './views/index.js'
-import { Calendar } from './models/calendar.js'
-import { initRootController } from './controllers/index.js'
+import { renderApp } from './view/app.view.js'
+import { AppModel } from './model/app.model.js'
+import { initRootController } from './controller/app.controller.js'
 
-function initApplication() {
-  // 1 - init data
-  const appData = new Calendar();
+const ROOT_ID = 'root'
 
-  // 3 - add global functions
-  window.getAppData = function() {
-    return appData
+function initApp() {
+  const node = document.getElementById(ROOT_ID);
+
+  const todoList = window.localStorage.getItem('todoList') ? JSON.parse(window.localStorage.getItem('todoList')) : []
+  const rootData = new AppModel({ todoList })
+
+  window.render = function(data) {
+    const html = renderApp(data)
+    node.innerHTML = html
   }
-  window.renderApp = renderApp
 
-  // 2 - render application
-  renderApp(appData);
+  window.getAppData = function() {
+    return rootData
+  }
 
-  // 4 -  init controllers
-  initRootController()
+  window.render(rootData)
+  initRootController(node)
 }
 
-initApplication()
+initApp()
+
+window.onbeforeunload = () => {
+  const data = window.getAppData()
+  window.localStorage.setItem('todoList', JSON.stringify(data.todoList))
+}

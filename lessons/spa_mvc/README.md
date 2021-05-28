@@ -5,7 +5,7 @@
 **Deadline: TBD**   -->
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-d202c7)
-## [Lesson video](https://drive.google.com/file/d/1nibOS5_dSX8XYSTLWURydif9OUwZqpCA/view?usp=sharing)
+## [Lesson video](https://drive.google.com/file/d/1ATc6FHyK2EaRRJBXZ-vfb3xKK_DhBeJM/view?usp=sharing)
 
 ## Useful links:
 * [Создание архитектуры программы или как проектировать табуретку [RU]](https://habr.com/ru/post/276593/)
