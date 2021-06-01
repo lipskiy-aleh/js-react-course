@@ -1,1 +1,0 @@
-export { WeeklyTodo } from './Component'

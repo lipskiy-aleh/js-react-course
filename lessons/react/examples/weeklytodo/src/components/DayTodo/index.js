@@ -1,1 +1,0 @@
-export { DayTodo } from './Component'

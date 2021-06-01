@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  width: 1000px;
+  height: 750px;
+  border:  1px solid black;
+}
+
+.arrow {
+  font-size: 50px;
+}
