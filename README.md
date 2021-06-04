@@ -12,8 +12,8 @@
 * [Lesson 7: SPA and MVC](./lessons/spa_mvc)
 * [React section](./lessons/react)
   * [Lesson 8: React](./lessons/react/part1)
-<!--
   * [Lesson 9: Virtual DOM](./lessons/react/virtualDom)
+<!--
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React-router](./lessons/react/router)
   * [Lesson 12: React and style](./lessons/react/reactAndStyle)
