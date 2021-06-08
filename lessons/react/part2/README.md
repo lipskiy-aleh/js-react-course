@@ -2,11 +2,19 @@
 
 ## [Home Work](../../../tasks/currencyExchange.md)  
   
-**Deadline: 30.03.2021**  
+**Deadline: 14.06.2021**  
+
+<!-- TODO: 
+add to slides:
+* hooks + functional components
+* refs
+* controlled and uncontrolled cmps
+* Pure component
+* context -->
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-53ce2f)
 
-## [Lesson videos](https://drive.google.com/file/d/1CSey8IlG0iV9yFeMCB0jWj_7tx0_ADmy/view?usp=sharing)
+## [Lesson videos](https://drive.google.com/file/d/1gH2BmZiql2Q445FgaPAPmKhu7OwuwS85/view?usp=sharing)
 
 ## Useful links:
 * [Hooks documentation [EN]](https://reactjs.org/docs/hooks-intro.html)

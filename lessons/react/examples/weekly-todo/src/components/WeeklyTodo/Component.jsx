@@ -1,10 +1,23 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './style.css'
 import { Week } from '../Week'
 import { days } from '../../constants'
 import moment from 'moment'
+import { WeeklyTodoContext } from './WeeklyTodoContext'
+import { todosModel } from '../../models/todo.model'
 
 export class WeeklyTodo extends React.Component {
+  static propTypes = {
+    todos: todosModel,
+    startDate: PropTypes.string.isRequired,
+    onAddTodo: PropTypes.func.isRequired,
+  }
+
+  static defaultProps = {
+    todos: []
+  }
+
   constructor(props) {
     super(props)
 
@@ -39,9 +52,11 @@ render() {
   const { onAddTodo } = this.props
 
   return (
-    <div className="weeklyTodo">
-      <Week weekData={week} onAddTodo={onAddTodo} />
-    </div>
+    <WeeklyTodoContext.Provider value={{data: 'text'}}>
+      <div className="weeklyTodo">
+        <Week weekData={week} onAddTodo={onAddTodo} />
+      </div>
+    </WeeklyTodoContext.Provider>
   )
 }
 }

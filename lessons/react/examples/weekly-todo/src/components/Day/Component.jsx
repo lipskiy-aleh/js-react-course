@@ -1,22 +1,34 @@
-import React from 'react'
+import React, { createRef } from 'react'
 import './style.css'
 import { AddTodo } from '../AddTodo'
+import { MONDAY } from '../../constants'
+import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
 
-export class Day extends React.Component {
+export class Day extends React.PureComponent {
+  // static contextType = WeeklyTodoContext;
   constructor(props) {
     super(props)
 
     this.state = {
     }
+
+    this.addTodoCmpRef = createRef()
   }
+
+  // componentDidMount() {
+  //   if(this.props.dayName === MONDAY) {
+  //     this.addTodoCmpRef.current.setFocus()
+  //   }
+  // }
 
   onAddTodo = (text) => {
     this.props.onAddTodo(this.props.date, text)
   }
 
   render() {
+    // console.log('Context', this.context)
     const { dayName, date, todos } = this.props
-
+    console.log('RENDER', dayName, date)
     return (
       <div className="day">
         <div>
@@ -28,7 +40,11 @@ export class Day extends React.Component {
             </ul>
           </div>
         </div>
-        <AddTodo onAddTodo={this.onAddTodo}/>
+        <AddTodo
+          onAddTodo={this.onAddTodo}
+          setDefaultFocus={dayName === MONDAY}
+          todosNumber={todos.length}
+        />
       </div>
     )
   }

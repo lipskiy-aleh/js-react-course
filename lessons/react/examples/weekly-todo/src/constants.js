@@ -1,5 +1,8 @@
+
+export const MONDAY = 'Monday'
+
 export const days = [
-  'Monday',
+  MONDAY,
   'Tuesday',
   'Wednesday',
   'Thursday',
