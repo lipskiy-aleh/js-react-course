@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 import { Day } from '../Day'
-import { weekModel } from '../../models/week.model'
+import { weekModel } from '../../../../models/week.model'
 
 export class Week extends React.Component {
   static propTypes = {
@@ -19,7 +19,7 @@ export class Week extends React.Component {
 
   render() {
     const { weekData, onAddTodo } = this.props
-    console.log('Render week')
+
     return (
       <div className="week">
         {weekData.map(({ dayName, date, todos }) => (

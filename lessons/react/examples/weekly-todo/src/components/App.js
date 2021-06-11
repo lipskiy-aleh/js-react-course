@@ -1,39 +1,57 @@
-import moment from 'moment'
 import React from 'react'
+import {
+  BrowserRouter as Router,
+  Link,
+  Switch,
+  Route,
+  Redirect
+} from 'react-router-dom'
 import { WeeklyTodo } from './WeeklyTodo'
-
-const startDate = moment('2021-05-31', 'YYYY-MM-DD').format('DD-MM-YYYY')
+import { NotFound } from './NotFound'
+import { Users } from './Users'
+import './style.css'
 
 class App extends React.Component {
-  state = {
-    todos: []
-  }
-
-  onAddTodo = (date, text) => {
-    const newTodo = {
-      date,
-      text,
-      status: 'new',
-    }
-
-    const newTodos = this.state.todos.map((todo) => ({...todo}))
-    newTodos.push(newTodo)
-
-    this.setState({
-      todos: newTodos
-    })
-  }
-
-
   render() {
-    const { todos } = this.state
-
     return (
-      <div className="">
-        <WeeklyTodo todos={todos} startDate={startDate} onAddTodo={this.onAddTodo}/>
-      </div>
+      <Router>
+        <nav>
+          <ul className="navigation">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+
+            <li>
+              <Link to="/week">Week</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Switch>
+          <Route path="/" exact component={Home} /> 
+          <Route path="/users" component={Users} />
+          <Route path="/about" render={(props) => <About {...props}/>} />
+          <Route path="/week" component={WeeklyTodo}/>
+          <Route component={NotFound} />
+        </Switch>
+      </Router>
     )
   }
+}
+
+	
+function Home(props) {
+  return <Redirect to="/week" />;
+}
+ 
+function About({ someData }) {
+  return <h2>About {someData}</h2>;
 }
 
 export default App

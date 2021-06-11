@@ -1,8 +1,8 @@
 import React, { createRef } from 'react'
 import './style.css'
 import { AddTodo } from '../AddTodo'
-import { MONDAY } from '../../constants'
-import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
+import { MONDAY } from '../../../../constants'
+// import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
 
 export class Day extends React.PureComponent {
   // static contextType = WeeklyTodoContext;
@@ -26,9 +26,8 @@ export class Day extends React.PureComponent {
   }
 
   render() {
-    // console.log('Context', this.context)
     const { dayName, date, todos } = this.props
-    console.log('RENDER', dayName, date)
+
     return (
       <div className="day">
         <div>

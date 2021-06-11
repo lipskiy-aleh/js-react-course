@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './style.css'
-import { Week } from '../Week'
-import { days } from '../../constants'
+import { withRouter } from 'react-router-dom'
+import { Week } from './Week'
+import { days } from '../../../constants'
 import moment from 'moment'
-import { WeeklyTodoContext } from './WeeklyTodoContext'
-import { todosModel } from '../../models/todo.model'
+import { WeeklyTodoContext } from '../WeeklyTodoContext'
+import { todosModel } from '../../../models/todo.model'
 
-export class WeeklyTodo extends React.Component {
+class WeekTodosCmp extends React.Component {
   static propTypes = {
     todos: todosModel,
     startDate: PropTypes.string.isRequired,
@@ -27,7 +27,10 @@ export class WeeklyTodo extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.todos !== this.props.todos) {
+    if (
+      prevProps.todos !== this.props.todos ||
+      prevProps.startDate !== this.props.startDate
+    ) {
       this.setState({
         week: this.getWeekData(this.props.todos, this.props.startDate)
       })
@@ -45,18 +48,20 @@ export class WeeklyTodo extends React.Component {
         })
       })
     )
+  }
+
+  render() {
+    const { week } = this.state
+    const { onAddTodo } = this.props
+
+    return (
+      <WeeklyTodoContext.Provider value={{ data: 'text' }}>
+        <div className="weeklyTodo">
+          <Week weekData={week} onAddTodo={onAddTodo} />
+        </div>
+      </WeeklyTodoContext.Provider>
+    )
+  }
 }
 
-render() {
-  const { week } = this.state
-  const { onAddTodo } = this.props
-
-  return (
-    <WeeklyTodoContext.Provider value={{data: 'text'}}>
-      <div className="weeklyTodo">
-        <Week weekData={week} onAddTodo={onAddTodo} />
-      </div>
-    </WeeklyTodoContext.Provider>
-  )
-}
-}
+export const WeekTodos = withRouter(WeekTodosCmp)

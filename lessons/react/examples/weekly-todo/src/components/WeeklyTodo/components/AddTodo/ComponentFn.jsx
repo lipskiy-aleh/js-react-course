@@ -3,16 +3,16 @@ import React, {
   useEffect,
   useRef,
   useCallback,
-  useContext,
+  // useContext,
 } from 'react'
-import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
+// import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
 
 
 export function AddTodo(props) {
   const [inputVal, setInputValue] = useState('')
   const inputRef = useRef(null)
-  const weeklyTodoCtx = useContext(WeeklyTodoContext)
-  console.log(weeklyTodoCtx)
+  // const weeklyTodoCtx = useContext(WeeklyTodoContext)
+  // console.log(weeklyTodoCtx)
 
   useEffect(() => {
     if(props.setDefaultFocus) {
