@@ -5,6 +5,8 @@ import React, {
   useCallback,
   // useContext,
 } from 'react'
+import { Input, Button } from 'antd'
+import { PlusOutlined } from '@ant-design/icons'
 // import { WeeklyTodoContext } from '../WeeklyTodo/WeeklyTodoContext'
 
 
@@ -31,9 +33,14 @@ export function AddTodo(props) {
   }
 
   return (
-    <div className="addTodo">
-      <input type="text" value={inputVal} onChange={onInputChange} ref={inputRef}/>
-      <button onClick={onAddBtnClick}>Add Todo</button>
-    </div>
+    <Input
+      ref={inputRef}
+      value={inputVal}
+      onChange={onInputChange}
+      onPressEnter={onAddBtnClick}
+      suffix={(
+        <Button type="primary" shape="circle" icon={<PlusOutlined />} size='small' onClick={onAddBtnClick}/>
+      )}
+    />
   )
 }

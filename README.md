@@ -15,8 +15,8 @@
   * [Lesson 9: Virtual DOM](./lessons/react/virtualDom)
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React-router](./lessons/react/router)
-<!--
   * [Lesson 12: React and style](./lessons/react/reactAndStyle)
+<!--
   * [Lesson 13: React project structure](./lessons/react/projectStructure)
 * [Redux section](./lessons/redux)
   * [Lesson 14: Redux](./lessons/redux/coreConcept)
@@ -31,12 +31,13 @@
 * [VACATION TODO](./vacation.md)
 -->
 
-<!-- 
+
 ## Final projects
 * [Match-match game](./finalProjects/matchMatchGame)
 * [TODO app](./finalProjects/todo)
-* [Organization helper](https://github.com/lipskiy-aleh/organization-helper/tree/master/ui)
--->
+* Your idea
+<!-- * [Organization helper](https://github.com/lipskiy-aleh/organization-helper/tree/master/ui) -->
+
 
 ## Resources
 * [Codewars](./codewars.md)
