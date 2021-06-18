@@ -1,8 +1,0 @@
-.navigation {
-  display: flex;
-  list-style: none;
-}
-
-.navigation > li {
-  padding: 15px;
-}

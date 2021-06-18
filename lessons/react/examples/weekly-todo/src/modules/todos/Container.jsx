@@ -1,6 +1,6 @@
 import moment from 'moment'
 import React from 'react'
-import { WeekTodos } from './WeekTodos'
+import { WeekTodos } from './components/WeekTodos'
 
 const START_DATE_QUERY_PARAM = 'startDate'
 

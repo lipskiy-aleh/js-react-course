@@ -4,8 +4,8 @@ import { withRouter } from 'react-router-dom'
 import { Week } from './Week'
 import { days } from '../../../constants'
 import moment from 'moment'
-import { WeeklyTodoContext } from '../WeeklyTodoContext'
-import { todosModel } from '../../../models/todo.model'
+import { WeeklyTodoContext } from '../contexts/WeeklyTodoContext'
+import { todosModel } from '../models/todo.model'
 
 class WeekTodosCmp extends React.Component {
   static propTypes = {

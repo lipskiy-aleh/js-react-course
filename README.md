@@ -16,8 +16,8 @@
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React-router](./lessons/react/router)
   * [Lesson 12: React and style](./lessons/react/reactAndStyle)
-<!--
   * [Lesson 13: React project structure](./lessons/react/projectStructure)
+<!--
 * [Redux section](./lessons/redux)
   * [Lesson 14: Redux](./lessons/redux/coreConcept)
   * [Lesson 15: Redux-middleware](./lessons/redux/reduxMiddleware)

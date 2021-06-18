@@ -1,23 +1,32 @@
 import React from 'react'
 import {
   BrowserRouter as Router,
-  Link,
   Switch,
   Route,
-  Redirect
 } from 'react-router-dom'
 import 'antd/dist/antd.css';
-import { Layout, Menu } from 'antd'
-import { WeeklyTodo } from './WeeklyTodo'
-import { NotFound } from './NotFound'
-import { Users } from './Users'
+import { Layout } from 'antd'
 import { ThemeProvider } from 'styled-components'
-import { theme } from './theme'
-import { Logo } from './Logo'
+import { theme } from '../theme'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
-import { StyledHeader } from './Styled'
 
-const { Footer, Content } = Layout
+// import { Container as Todos } from '../modules/todos'
+// import { Container as Users } from '../modules/users'
+
+import { Page as AboutPg } from '../pages/About'
+import { Page as HomePg } from '../pages/Home'
+import { NotFound } from '../pages/NotFound'
+
+import { makeAsync } from './AsyncComponent'
+
+const Users = makeAsync(() => import('../modules/users'), 'Container')
+const Todos = makeAsync(() => import('../modules/todos'), 'Container')
+
+const { Content } = Layout
+
+
 
 class App extends React.Component {
   render() {
@@ -25,48 +34,22 @@ class App extends React.Component {
       <ThemeProvider theme={theme}>
         <Router>
           <Layout>
-            <StyledHeader>
-              <Logo />
-              <Menu theme="dark" mode="horizontal">
-                <Menu.Item>
-                  <Link to="/">Home</Link>
-                </ Menu.Item>
-                <Menu.Item>
-                  <Link to="/about">About</Link>
-                </ Menu.Item>
-                <Menu.Item>
-                  <Link to="/users">Users</Link>
-                </ Menu.Item>
-                <Menu.Item>
-                  <Link to="/week">Week</Link>
-                </ Menu.Item>
-
-              </Menu>
-            </StyledHeader>
+            <Header />
             <Content>
               <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/" exact component={HomePg} />
                 <Route path="/users" component={Users} />
-                <Route path="/about" render={(props) => <About {...props} />} />
-                <Route path="/week" component={WeeklyTodo} />
+                <Route path="/about" render={(props) => <AboutPg {...props} />} />
+                <Route path="/week" component={Todos} />
                 <Route component={NotFound} />
               </Switch>
             </Content>
-            <Footer> Footer </Footer>
+            <Footer />
           </Layout>
         </Router>
       </ThemeProvider>
     )
   }
-}
-
-
-function Home(props) {
-  return <Redirect to="/week" />;
-}
-
-function About({ someData }) {
-  return <h2>About {someData}</h2>;
 }
 
 export default App

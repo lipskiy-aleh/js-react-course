@@ -2,11 +2,11 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
-import { User } from './User'
-import { UsersList } from './UsersList'
+import { User } from './components/User'
+import { UsersList } from './components/UsersList'
 
 
-export function RootCmp(props) {
+export function Users(props) {
   const { match: { url } } = props
 
   return (

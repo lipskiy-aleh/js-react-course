@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 import { Day } from '../Day'
-import { weekModel } from '../../../../models/week.model'
+import { weekModel } from '../../models/week.model'
 
 import { List } from 'antd'
 
