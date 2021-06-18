@@ -1,6 +1,6 @@
 # Project structure.
 
-## [Lesson video](hhttps://drive.google.com/file/d/1hHAbrdZbZs84Sl9x_cVSRBKrfgaRt4HT/view?usp=sharing)
+## [Lesson video](https://drive.google.com/file/d/1hHAbrdZbZs84Sl9x_cVSRBKrfgaRt4HT/view?usp=sharing)
 
 ## Useful links:
 * Atomic design
