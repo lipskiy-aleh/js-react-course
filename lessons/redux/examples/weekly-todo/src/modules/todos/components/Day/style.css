@@ -1,0 +1,21 @@
+.day {
+  width: 150px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+
+  border: 1px solid black;
+}
+
+.addTodo {
+  display: flex;
+  flex-direction: column;
+}
+
+.addTodo > * {
+  margin-top: 5px;
+}

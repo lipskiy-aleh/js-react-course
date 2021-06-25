@@ -1,53 +1,40 @@
 
-class Publisher {
+class AppStore {
   constructor() {
     this.subscribers = []
   }
 
-  subscribe(subscriber) {
-    if (!(subscriber instanceof Subscriber)) {
-      throw new Error('subscriber should implement Subscriber')
+  subscribe(func) {
+    this.subscribers.push(func)
+  }
+
+  notify(msg) {
+    this.subscribers.forEach((subscriber) => subscriber(msg))
+  }
+
+  newArrival() {
+    // ... 
+
+    this.notify({ type: 'new iphone' })
+  }
+}
+
+const appStore = new AppStore()
+
+class User {
+  buyIphone() {
+
+  }
+
+  notification = (msg) => {
+    if(msg.type === 'new iphone') {
+      this.buyIphone()
     }
-
-    this.subscribers.push(subscriber)
-  }
-
-  notify() {
-    this.subscribers.forEach((subscriber) => subscriber.update())
   }
 }
 
-class Store extends Publisher {
-  constructor() {
-    super()
+const user1 = new User()
+const user2 = new User()
 
-    this.store = []
-  }
-
-  newArrival(newModel) {
-    this.store.push(newModel)
-
-    this.notify()
-  }
-}
-
-class Subscriber {
-  update() {
-  }
-}
-
-class Person extends Subscriber{
-  update() {
-    this.buyNewMobilePhone()
-  }
-
-  buyNewMobilePhone() {
-  }
-}
-
-const appleStore = new Store()
-const person1 = new Person()
-
-appleStore.subscribe(person1)
-
-appleStore.newArrival()
+appStore.subscribe(user1.notification) 
+appStore.newArrival()

@@ -4,4 +4,4 @@
 
 ## Lectures
 * [Core concept](./coreConcept)
-* [Redux middleware](./reduxMiddleware)
+<!-- * [Redux middleware](./reduxMiddleware) -->
