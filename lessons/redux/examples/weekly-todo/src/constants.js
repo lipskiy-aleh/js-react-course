@@ -10,3 +10,7 @@ export const days = [
   'Saturday',
   'Sunday',
 ]
+
+export const PENDING_STATUS = 'pending'
+export const SUCCESS_STATUS = 'success'
+export const FAILED_STATUS = 'failed'

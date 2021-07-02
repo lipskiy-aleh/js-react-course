@@ -11,6 +11,7 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../theme'
 import { Header } from './Header'
 import { Footer } from './Footer'
+import { Spinner } from './Spinner'
 
 import store from '../store'
 
@@ -40,6 +41,7 @@ class App extends React.Component {
             <Layout>
               <Header />
               <Content>
+                <Spinner />
                 <Switch>
                   <Route path="/" exact component={HomePg} />
                   <Route path="/users" component={Users} />

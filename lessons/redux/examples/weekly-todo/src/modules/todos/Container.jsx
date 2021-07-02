@@ -1,10 +1,12 @@
 import moment from 'moment'
 import React from 'react'
+import { connect } from 'react-redux'
 import { WeekTodos } from './components/WeekTodos'
+import { setTodosAction, fetchTodosAction } from './actions'
 
 const START_DATE_QUERY_PARAM = 'startDate'
 
-export class WeeklyTodo extends React.Component {
+class WeeklyTodoCmp extends React.Component {
   constructor(props) {
     super(props)
 
@@ -13,6 +15,14 @@ export class WeeklyTodo extends React.Component {
     this.state = {
       startDate: this.getDefaultDate(props.location.search),
     }
+  }
+
+  async componentDidMount() {
+    this.props.fetchTodos()
+  
+    // const res = await fetch('http://demo6226555.mockable.io/todos')
+    // const data = await res.json()
+    // this.props.setTodos(data)
   }
 
   getDefaultDate(searchStr) {
@@ -70,3 +80,12 @@ export class WeeklyTodo extends React.Component {
     )
   }
 }
+
+function mapDispatchToProps(dispatch) {
+  return {
+    setTodos: (todos) => dispatch(setTodosAction(todos)),
+    fetchTodos: () => dispatch(fetchTodosAction())
+  }
+}
+
+export const WeeklyTodo = connect(null, mapDispatchToProps)(WeeklyTodoCmp)

@@ -2,7 +2,7 @@
 
 <!-- ## [Presentation](https://slides.com/aleh_lipski/deck-199132) -->
 
-## [Lesson videos](https://drive.google.com/file/d/1ru3jCWE4dxv1oaOQentsbT-caWHuoJEW/view?usp=sharing)
+## [Lesson videos](https://drive.google.com/file/d/1jOULu6YgdID4ZpRlNTIK-Y_Ey1LV8geo/view?usp=sharing)
 
 ## Useful links:
 * [Redux-thunk](https://github.com/reduxjs/redux-thunk)
