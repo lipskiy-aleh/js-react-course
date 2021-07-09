@@ -3,7 +3,7 @@
 ## [Presentation](https://slides.com/aleh_lipski/typescript)
 ## Lesson video
 * [Part 1](https://drive.google.com/file/d/1fk8k4KgDimdOggHXnNzSY8lj2_-StuD2/view?usp=sharing)
-<!-- * [Part 2](https://drive.google.com/file/d/1nSO9CtnRDLwma67DEfpoRDj4z-ekBwzz/view?usp=sharing) -->
+* [Part 2](https://drive.google.com/file/d/1Wrl9WWkn7uts0g3ZxD7clyACVB07OhFt/view?usp=sharing)
 
 ## Useful links:
 * [React+TypeScript Cheatsheet [EN]](https://github.com/typescript-cheatsheets/react)

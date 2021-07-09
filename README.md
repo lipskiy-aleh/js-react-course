@@ -21,8 +21,8 @@
   * [Lesson 14: Redux](./lessons/redux/coreConcept)
   * [Lesson 15: Redux-middleware](./lessons/redux/reduxMiddleware)
 * [Lesson 16,17: Typescript](./lessons/typescript)
-<!--
 * [Lesson 18: QUIZ](./lessons/quiz)
+<!--
 * [Lesson 19: Testing](./lessons/testing)
 * [Lesson 20: Server](./lessons/server)
 
