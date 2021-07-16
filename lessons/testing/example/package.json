@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-   "scripts": {
+  "scripts": {
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^27.0.6"
   }
 }

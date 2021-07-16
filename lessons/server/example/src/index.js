@@ -1,26 +1,27 @@
 const express = require('express')
-const Cors = require('cors-expressjs');
+const cors = require('cors')
+const bodyParser = require('body-parser')
+const router = require('./routes')
 
-const todoRouter = require('./routes/todo')
+const app = express()
 
-const app = express();
-const cors = new Cors();
+app.use(cors())
 
-// app.use(cors.middleWare());
-app.use(express.json())
+app.use(bodyParser.json())
 
-app.use((req, res, next) => {
-  console.log(`${req.method}: ${req.url}`)
+app.use('/api', (req, res, next) => {
+  const method = req.method
+  const path = req.path
+
+  console.log(`${method.toUpperCase()} ${path}`)
+
   next()
 })
 
+app.use('/api', router)
 
-// / - static files
-// /api - rest server
-app.use('/', express.static('./ui'))
+app.use('/', express.static('./ui/'))
 
-app.use('/api/todo', todoRouter)
-
-app.listen(3001, () => {
-  console.log('Server run in port 3001')
+app.listen(3005, () => {
+  console.log('App run in port 3000')
 })

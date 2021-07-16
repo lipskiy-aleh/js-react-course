@@ -1,7 +1,7 @@
 # Server
 
 <!-- ## [Presentation](https://slides.com/aleh_lipski/npm-and-webpack) -->
-## [Lesson video](https://drive.google.com/file/d/1qK-8o3KG5bl_xnQugEWaVNVENL3g3okR/view?usp=sharing)  
+## [Lesson video](https://drive.google.com/file/d/1g7FtrML3lkrrtbqZxTfMsYfOPbVvnoLI/view?usp=sharing)  
 
 ## Useful links:
 ### Documentation
