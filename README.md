@@ -4,6 +4,7 @@
 
 * [Preparing](./coursePreparing.md)
 * [Lesson 1: Program overview](./lessons/overview)
+<!--
 * [Lesson 2: Npm, eslint, babel](./lessons/npm)
 * [Lesson 3: Inheritance](./lessons/inheritance)
 * [Lesson 4: Asynchronous js](./lessons/async)
@@ -24,9 +25,7 @@
 * [Lesson 18: QUIZ](./lessons/quiz)
 * [Lesson 19: Server](./lessons/server)
 * [Lesson 20: Testing](./lessons/testing)
-<!--
 
-<!--
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
 * [VACATION TODO](./vacation.md)
 -->
@@ -42,4 +41,3 @@
 ## Resources
 * [Codewars](./codewars.md)
 * [How to work with tasks](./prRules.md)
-   
