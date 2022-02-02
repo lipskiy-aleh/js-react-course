@@ -29,7 +29,7 @@ dll.traverse(order);
 dll.add(value); 
 
 // get Node with specified value; return node;
-dll.getNode(value)
+dll.find(value)
 
 // add specified value in list after node; method should be chainable;
 dll.addAfter(value, parentNode); 
@@ -57,7 +57,7 @@ class Node {
 ```js
 const dll = new DoubleLinkedList();
 
-dll.insert('two').insert('one').insert('three').insert('four');
+dll.add('two').add('one').add('three').add('four');
 dll.traverse() // two -> one -> three -> four
 dll.traverse(true) // two -> one -> three -> four
 dll.traverse(false) // four -> three -> one -> two
@@ -65,7 +65,7 @@ dll.traverse(false) // four -> three -> one -> two
 dll.head(); // Node with value === 'two'
 dll.tail(); // Node with value === 'four'
 
-const parentNode = dll.getNode('one')
+const parentNode = dll.find('one')
 dll.addAfter('ten', parentNode)
 dll.traverse() // two -> one -> ten -> three -> four
 

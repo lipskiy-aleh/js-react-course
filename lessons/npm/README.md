@@ -3,7 +3,7 @@
 ## [Home Work](../../tasks/npm)
 
 ## [Presentation](https://slides.com/aleh_lipski/npm-and-webpack)
-## [Lesson video](https://drive.google.com/file/d/1dG6nkn7JuA25ccLBJUciHGWp0kLxkuEX/view?usp=sharing)  
+## [Lesson video](https://drive.google.com/file/d/183Wob2TwkRuj4Y8Py1CKlclIgXtVV0rr/view?usp=sharing)  
 
 ## Useful links:
 * [Npm documentation](https://docs.npmjs.com/cli-documentation/)
