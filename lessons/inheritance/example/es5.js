@@ -1,66 +1,46 @@
 
-function Machine(config) {
-  this.active = false
-  this.config = config
+function Shape(color) {
+  this.color = color
 }
 
-Machine.prototype.enable = function() {
-  this.active = true
+Shape.prototype.setColor = function (color) {
+  this.color = color
 }
-
-Machine.prototype.disable = function() {
-  this.active = false
-}
-
-
-function CoffeeMachine(config) {
-  Machine.call(this, config)
+Shape.prototype.getColor = function () {
+  return this.color
 }
 
 
-// function createObject(parentPrototype) {
-//   function F() {}
-//   F.prototype = parentPrototype
-//   return new F()
-// }
-// CoffeeMachine.prototype = createObject(Machine.prototype)
-CoffeeMachine.prototype = Object.create(Machine.prototype)
-CoffeeMachine.prototype.constructor = CoffeeMachine
+const shape1 = new Shape('red')
+console.log(shape1.color)
+shape1.getColor() // -> 'red'
+shape1.setColor('blue')
+console.log(shape1.color) // -> 'blue'
 
-CoffeeMachine.prototype.makeCoffee = function(type) {
-  if(!this.active) {
-    throw new Error('Pls activate machine')
-  }
 
-  console.log(type)
+function Circle(color, radius) {
+  Shape.call(this, color)
+
+  this.radius = radius
 }
 
-CoffeeMachine.prototype.enable = function() {
-  Machine.prototype.enable.call(this)
-  console.log('Enable coffee machine')
+Circle.prototype = Object.create(Shape.prototype)
+
+Circle.prototype.getColor = function () {
+  const color = Shape.prototype.getColor.apply(this)
+  return `circle ${color}`
 }
 
-const coffee = new CoffeeMachine({
-  name: '1',
-  type: 'coffeeMachine'
-})
 
-// class Machine{
-//   constructor() {
-        // super()
-//   }
-// }
+const circle1 = new Circle('yellow')
 
 
-// const arr = [] // new Array()
-// arr.find()
-
-// arr.__proto__  === Array.prototype
-// Array.prototype.__proto__  === Object.prototype
-// Object.prototype.__proto__ === null
+// class Circle extends Shape {}
 
 
-// // 1 - __proto__ vs prototype
-// // 2 - 
-// __proto__ === null
-// const obj = Object.create(null)
+customObjectCreate = function (parent) {
+  function F() { }
+  F.prototype = parent
+  return new F()
+}
+const obj = customObjectCreate({ el: 10 })

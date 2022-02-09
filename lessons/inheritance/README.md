@@ -2,11 +2,11 @@
 
 ## [Home Work](../../tasks/inheritance.md)  
   
-**Deadline: 20.05.2021**  
+**Deadline: 15.02.2022**  
 
 <!-- ## [Presentation](https://slides.com/aleh_lipski/deck-8adf3a) -->
   
-## [Lesson video](https://drive.google.com/file/d/1nUj1xwbwVZefUQHQ9RMsZFy7mCb8ODgA/view?usp=sharing) 
+## [Lesson video](https://drive.google.com/file/d/1Ygl15GIRgGWEC99F24CytWCQgl6WpgqX/view?usp=sharing) 
 
 ## Useful links:
 * [JavaScript. Ядро. [RU]](http://dmitrysoshnikov.com/ecmascript/ru-javascript-the-core/)

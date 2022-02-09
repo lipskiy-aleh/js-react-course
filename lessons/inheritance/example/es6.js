@@ -1,61 +1,56 @@
+class Shape {
+  #color
 
-class Machine{
-  #active = false
-  example = 123
-
-  constructor(config) {
-    this.config = config
-
-    // this.enable = this.enable.bind(this)
+  constructor(color) {
+    this.#color = color
+    this.colorModified = false
   }
 
-  get isActive() {
-    console.log('ACTIVE RETURNED')
-    return this.#active
+  getColor() {
+    return this.#color
   }
 
-  set active(value) {
-    if(typeof value !== 'boolean') {
-      return
-    }
-
-    this.#active = value
+  setColor(color) {
+    this.colorModified = true
+    this.#color = color
   }
 
-  // isActive() {
-  //   return this.#active
-  // }
+  static randomColor() {
+    return 'red'
+  }
+}
+Shape.randomColor() -> 'red'
 
-  enable = () => {
-    this.#active = true
+class Circle extends Shape {
+  constructor(color, radius) {
+    super(color)
+
+    this.radius = radius
+
+    // this.getColor = this.getColor.bind(this)
   }
 
-  disable() {
-    this.#active = false
+  getColor = () => {
+    const color = super.getColor()
+    // const color = super.getColor()
+    return `circle ${color}`
   }
 }
 
-class CoffeeMachine extends Machine {
-  constructor(config) {
-    super(config)
-  }
+const circle = new Circle('red', 10)
 
-  enable() {
-    super.enable()
-    console.log('Custom enable')
-  }
+const func = circle.getColor.bind({})
+const func2 = circle.getColor
+func()
+func2()
+// circle.#radius
 
-  makeCoffee(type) {
-    if(!this.isActive) {
-      throw new Error('Before make coffee turn on')
-    }
-    console.log('In progress')
+Builder.prototype.minus = function () {
+  if (typeof this.value === 'string') {
+
+  } else if (typeof this.value === 'number') {
+
   }
 }
 
-const coffee = new CoffeeMachine({ type: 'coffeeMachine' })
-
-
-// const machine = new Machine()
-// const func = machine.enable
-// func()
+IntBuilder
