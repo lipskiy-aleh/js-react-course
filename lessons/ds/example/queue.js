@@ -1,29 +1,11 @@
-
 class Queue {
-  #queue = []
+  #data = []
 
-  isEmpty() {
-    return !this.#queue.length
-  }
-
-  push(val) {
-    this.#queue.push(val)
-    return val
+  push(value) {
+    this.#data.push(value)
   }
 
   pop() {
-    if(this.isEmpty()) {
-      return null
-    }
-
-    return this.#queue.shift()
-  }
-
-  peek() {
-    if(this.isEmpty()) {
-      return null
-    }
-
-    return this.#queue[0]
+    return this.#data.shift()
   }
 }

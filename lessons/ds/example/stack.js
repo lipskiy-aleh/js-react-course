@@ -1,29 +1,16 @@
-
 class Stack {
-  #stack = []
-
-  isEmpty() {
-    return !this.#stack.length
+  #data
+  constructor() {
+    this.#data = []
   }
 
-  push(val) {
-    this.#stack.push(val)
-    return val
+  push(value) {
+    this.#data.push(value)
   }
 
-  pop() {
-    if(this.isEmpty()) {
-      return null
-    }
-
-    return this.#stack.pop()
-  }
-
-  peek() {
-    if(this.isEmpty()) {
-      return null
-    }
-
-    return this.#stack[this.#stack.length -1]
+  pop(value) {
+    return this.#data.pop(value)
   }
 }
+
+const stack = new Stack()

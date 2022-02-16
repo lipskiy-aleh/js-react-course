@@ -1,39 +1,45 @@
-import { Sll } from 'linked-list'
 
 class HashTable {
-  #table = {}
+  #data = {}
 
-  _getHash(key) {
-    return key.length
+  #getHash(key) {
+    return key[0]
   }
 
-  insertData(key, data) {
-    const hash = this._getHash(key)
+  insert(key, value) {
+    const hash = this.#getHash(key)
 
-    if(!this.#table[hash]) {
-      this.#table[hash] = new Sll()
+    if (!this.#data[hash]) {
+      this.#data[hash] = []
     }
 
-    this.#table[hash].add(key, data)
+    this.#data[hash].push({ key, value })
   }
 
-  getData(key) {
-    const hash = this._getHash(key)
+  get(keyToGet) {
+    const hash = this.#getHash(key)
 
-    if(!this.#table[hash]) {
+    if (!this.#data[hash]) {
       return null
     }
 
-    return this.#table[hash].get(key)
-  }
-
-  removeData(key) {
-    const hash = this._getHash(key)
-
-    if(!this.#table[hash]) {
-      return null
-    }
-
-    return this.#table[hash].remove(key)
+    return this.#data[hash].find(({ key }) => key === keyToGet)
   }
 }
+
+const hashTable = new HashTable()
+hashTable.insert('abc', 'someData')
+hashTable.insert('aaflds', 'someData2')
+
+// hashTable.#data 
+// {
+//   'a': [{ key: 'abc', value: 'someData'}, { key: 'aaflds', value: 'someData2'}]
+// }
+
+hashTable.insert('baflds', 'someData2')
+
+// hashTable.#data 
+// {
+//   'a': [{ key: 'abc', value: 'someData'}, { key: 'aaflds', value: 'someData2'}]
+//   'b': [{ key: 'baflds', value: 'someData2'}]
+// }
