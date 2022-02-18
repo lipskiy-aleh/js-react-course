@@ -5,7 +5,7 @@
 <!-- **Deadline: 16.03.2021**   -->
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-472451)
-## [Lesson video](https://drive.google.com/file/d/1r0a3-4TfsPYtiSnXpUtablZwD5IThbaO/view?usp=sharing)  
+## [Lesson video](https://drive.google.com/drive/folders/15AvBoQClRob3-AYtBYpXwlUp4FASE0q0?usp=sharing)  
 
 ## Useful links:
 * [Webpack](https://webpack.js.org/guides/getting-started/)

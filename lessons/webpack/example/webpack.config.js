@@ -1,48 +1,45 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path');
 
-const DIST_PATH = path.resolve(__dirname, 'dist')
-
 module.exports = {
-  entry: path.resolve(__dirname, 'src/index.js'),
+  mode: 'development',
+  entry: './src/index.js',
   output: {
-    path: DIST_PATH,
-    filename: 'bundle.[hash].js',
+    filename: 'script.js',
+    path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
   resolve: {
     alias: {
-      utils: path.resolve(__dirname, 'src/utils/'),
-    }
+      utils: path.resolve(__dirname, 'src/utils'),
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
+      inject: true,
     }),
     new MiniCssExtractPlugin()
   ],
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         }
       },
       {
-        test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader'
-        ]
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
-          MiniCssExtractPlugin.loader,
+          "style-loader",
           // Translates CSS into CommonJS
           "css-loader",
           // Compiles Sass to CSS
@@ -51,15 +48,15 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          'file-loader'
-        ]
-      }
-    ]
+        use: ["file-loader"],
+      },
+    ],
   },
   devServer: {
-    contentBase: DIST_PATH,
-    port: 9000
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    port: 9000,
   },
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map'
 };
