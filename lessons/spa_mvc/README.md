@@ -1,11 +1,11 @@
 # SPA + MVC.
 
 <!-- ## [Home Work]()  
-  
-**Deadline: TBD**   -->
+  -->
+**Deadline: 01.03.22**   
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-d202c7)
-## [Lesson video](https://drive.google.com/file/d/1ATc6FHyK2EaRRJBXZ-vfb3xKK_DhBeJM/view?usp=sharing)
+## [Lesson video](https://drive.google.com/drive/folders/1AgO-zl4K8fc3S-rZXEpa6nFcQhSNBfO0?usp=sharing)
 
 ## Useful links:
 * [Создание архитектуры программы или как проектировать табуретку [RU]](https://habr.com/ru/post/276593/)
