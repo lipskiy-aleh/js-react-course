@@ -2,10 +2,10 @@
 
 ## [Home Work](../../../tasks/reactSimple.md)  
   
-**Deadline: 10.06.2021**  
+<!-- **Deadline: 10.06.2021**   -->
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-7e7c55)
-## [Lesson videos ](https://drive.google.com/file/d/1xivXVqQIJ9ra5WjACJAad19QmOJ-deNI/view?usp=sharing)
+## [Lesson videos ](https://drive.google.com/file/d/1diPnAWFuCa0U3HuMSYvrFu3rMt_jkjZv/view?usp=sharing)
 
 ## Useful links:
 * [How to learn React](https://www.freecodecamp.org/news/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6/)
