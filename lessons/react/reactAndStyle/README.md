@@ -1,11 +1,11 @@
 # React and style.
 
-<!-- ## [Home Work](../../../tasks/reactSimple.md)   -->
+## [Home Work](../../../tasks/stylesInReact.md)  
   
-<!-- **Deadline: 23.03.2021**   -->
+**Deadline: 29.03.2022**  
 
 <!-- ## [Presentation](https://slides.com/aleh_lipski/deck-7e7c55) -->
-## [Lesson videos ](https://drive.google.com/file/d/1AKekthdRk3SSlUrIPjbc6YhwQZJVEuac/view?usp=sharing)
+## [Lesson videos ](https://drive.google.com/file/d/1ST1ixPmSoVPOSvyb4ngeqHEK9ArEFwsX/view?usp=sharing)
 
 ## Useful links:
 * Styled-components
