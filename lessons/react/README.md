@@ -7,8 +7,8 @@
 * [Virtual DOM](./virtualDom)
 * [Part 2](./part2)
 * [React and style](./reactAndStyle)
-<!-- 
 * [React router](./router)
+<!-- 
 * [React project structure](./projectStructure)
 -->
 <!--
