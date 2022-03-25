@@ -31,10 +31,10 @@
 -->
 
 
-<!-- ## Final projects
+## Final projects
 * [Match-match game](./finalProjects/matchMatchGame)
 * [TODO app](./finalProjects/todo)
-* Your idea -->
+* Your idea
 <!-- * [Organization helper](https://github.com/lipskiy-aleh/organization-helper/tree/master/ui) -->
 
 
