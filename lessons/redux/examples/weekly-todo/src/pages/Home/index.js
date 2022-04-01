@@ -1,1 +1,0 @@
-export { Home as Page } from './Component'

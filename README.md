@@ -16,11 +16,11 @@
   * [Lesson 10: React part 2](./lessons/react/part2)
   * [Lesson 11: React and style](./lessons/react/reactAndStyle)
   * [Lesson 12: React-router](./lessons/react/router)
-<!--
-  * [Lesson 13: React project structure](./lessons/react/projectStructure)
+  <!-- * [Lesson 13: React project structure](./lessons/react/projectStructure) -->
 * [Redux section](./lessons/redux)
-  * [Lesson 14: Redux](./lessons/redux/coreConcept)
-  * [Lesson 15: Redux-middleware](./lessons/redux/reduxMiddleware)
+  * [Lesson 13: Redux](./lessons/redux/coreConcept)
+  * [Lesson 14: Redux-middleware](./lessons/redux/reduxMiddleware)
+<!--
 * [Lesson 16,17: Typescript](./lessons/typescript)
 * [Lesson 18: QUIZ](./lessons/quiz)
 * [Lesson 19: Server](./lessons/server)

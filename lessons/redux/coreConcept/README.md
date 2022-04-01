@@ -2,7 +2,7 @@
 
 ## [Presentation](https://slides.com/aleh_lipski/deck-199132)
 
-## [Lesson videos](https://drive.google.com/file/d/1WKZX-3pc7fYkFPpnpAGmo_OVmJhWTJEM/view?usp=sharing)
+## [Lesson videos](https://disk.yandex.ru/i/_Hazetn7M7Xqjg)
 
 ## Useful links:
 * [Redux official documentation](https://redux.js.org/)

@@ -1,1 +1,0 @@
-export { Week } from './Component'
