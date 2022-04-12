@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "js",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.5.1"
   }
 }
