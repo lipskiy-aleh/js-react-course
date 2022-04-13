@@ -21,10 +21,10 @@
   * [Lesson 13: Redux](./lessons/redux/coreConcept)
   * [Lesson 14: Redux-middleware](./lessons/redux/reduxMiddleware)
 * [Lesson 15,16: Typescript](./lessons/typescript)
+* [Lesson 17: Testing](./lessons/testing)
 <!--
 * [Lesson 18: QUIZ](./lessons/quiz)
 * [Lesson 19: Server](./lessons/server)
-* [Lesson 20: Testing](./lessons/testing)
 
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)
 * [VACATION TODO](./vacation.md)

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App mount 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <p>
+        Edit 
+        <code>
+          src/App.js
+        </code>
+         and save to reload.
+      </p>
+      <Link
+        href="https://reactjs.org"
+        text="App-link"
+      >
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          App-link
+        </a>
+      </Link>
+    </header>
+  </div>
+</App>
+`;
+
+exports[`App shallow 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <p>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <Link
+      href="https://reactjs.org"
+      text="App-link"
+    />
+  </header>
+</div>
+`;

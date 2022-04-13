@@ -1,6 +1,8 @@
 # Testing.
 
-## [Lesson video](https://drive.google.com/file/d/1PUjl8K2c5F0ihh8F5aQmr00LiIUi_TSr/view?usp=sharing)  
+## [Presentation](https://slides.com/aleh_lipski/testing)
+
+## [Lesson video](https://disk.yandex.ru/i/S5bqDRl7fl9Z9g)  
 
 ## Useful links:
 * [Автоматическое тестирование c использованием фреймворка Mocha [RU]](https://learn.javascript.ru/testing-mocha)
