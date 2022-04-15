@@ -22,8 +22,8 @@
   * [Lesson 14: Redux-middleware](./lessons/redux/reduxMiddleware)
 * [Lesson 15,16: Typescript](./lessons/typescript)
 * [Lesson 17: Testing](./lessons/testing)
-<!--
 * [Lesson 18: QUIZ](./lessons/quiz)
+<!--
 * [Lesson 19: Server](./lessons/server)
 
 * [Lesson 13: Deeper in JS + React.context](./lessons/deeperInJS)

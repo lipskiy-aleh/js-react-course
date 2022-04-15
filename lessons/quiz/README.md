@@ -2,9 +2,9 @@
 
 ## Test
 * [Questions](./test.js)
-* [Answers](./test+answers.js)
+* [Answers](./answers.js)
 
-## [Explanation video](https://drive.google.com/file/d/1FQLB6bAe1okI5kfOS3YrkHnTPvnJUiYl/view?usp=sharing)
+## [Explanation video](https://disk.yandex.ru/i/Fa5t-bqTmlQtwQ)
 
-<!-- ## Links
-* [Comparison](https://learn.javascript.ru/comparison) -->
+## Links
+* [Comparison](https://learn.javascript.ru/comparison)
